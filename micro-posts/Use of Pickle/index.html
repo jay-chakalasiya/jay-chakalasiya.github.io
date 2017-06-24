@@ -1,0 +1,518 @@
+
+<!DOCTYPE html>
+	<html class="no-js">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Flying Pages - Micro-posts - Use of Pickle</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A Personal Project Site by Jay Chakalasiya" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="Jay Chakalasiya" />
+	<meta name="website" content="jaychakalasiya.com"
+
+  <!--
+	/////////////////////////////////////////////////////
+
+	Website: 		www.jaychakalasiya.com
+	Email: 			self@jaychakalasiya.com, chakalasiyajay00@gmail.com
+	Twitter: 		https://twitter.com/JayChakalasiya
+	Facebook: 		https://www.facebook.com/jay.chakalasiya
+
+	//////////////////////////////////////////////////////
+	-->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="../../css/Jupyter/Ansi.css">
+	<link rel="stylesheet" href="../../css/Jupyter/Highlight.css">
+	<link rel="stylesheet" href="../../css/Jupyter/Notebook.css">
+	<!--link rel="stylesheet" href="../../css/Jupyter/Override.css"-->
+	<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+			tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true,
+					processEnvironments: true
+			},
+			displayAlign: 'center',
+			"HTML-CSS": {
+					styles: {'.MathJax_Display': {"margin": 0}},
+					linebreaks: { automatic: true }
+			}
+	});
+	</script>
+
+
+
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Monsterrat:400,700|Merriweather:400,300italic,700' rel='stylesheet' type='text/css'>
+
+
+	<link rel="stylesheet" href="../../css/animate.css">
+	<link rel="stylesheet" href="../../css/icomoon.css">
+	<link rel="stylesheet" href="../../css/magnific-popup.css">
+	<link rel="stylesheet" href="../../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="../../css/cards.css">
+	<script src="../../js/modernizr-2.6.2.min.js"></script>
+	<link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../css/animate.min.css" rel="stylesheet">
+	<link href="../../css/font-awesome.min.css" rel="stylesheet">
+	<link href="../../css/lightbox.css" rel="stylesheet">
+	<link href="../../css/main.css" rel="stylesheet">
+	<link id="css-preset" href="../../css/presets/preset1.css" rel="stylesheet">
+	<link href="../../css/responsive.css" rel="stylesheet">
+	<link href="../../css/myOwnContent.css" rel="stylesheet">
+  <!--
+  <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/cards.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+	</head>
+
+
+
+	<body>
+
+	<div id="fh5co-page">
+
+		<nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
+			<div class="container">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fh5co-logo">
+					<a href="#" class="js-fh5co-mobile-toggle fh5co-nav-toggle"><i></i></a>
+					<a href="#"><img src="../../images/paperplane.png" alt="Paper Plane" height="50px" width="50px"class="image-align" /><strong>  Flying Pages<strong><br></a>
+				</div>
+				<div class="col-lg-6 col-md-5 col-sm-5 text-center fh5co-link-wrap">
+
+					<div> <!--class="container"-->
+						<div class="collapse navbar-collapse" style="background-color:rgba(255,255,255,0);">
+							<ul data-offcanvass="yes">
+								<li class="scroll"><a href="https://github.com/jay-chakalasiya">Github</a></li>
+								<li class="scroll"><a href="../../index.html">Home</a></li>
+								<!--<li class="scroll"><a href="#micro-posts">Micro-Posts</a></li>
+								<li class="scroll"><a href="#future-works">Future-Works</a></li>-->
+							</ul>
+						</div>
+					</div>
+					<!--
+
+					<ul data-offcanvass="yes">
+						<li class="active"><a href="#">Tour</a></li>
+						<li class="scroll"><a href="#projects">Projects</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Pricing</a></li>
+					</ul>-->
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 text-right fh5co-link-wrap">
+					<ul class="fh5co-special" data-offcanvass="yes">
+						<!--<li><a href="resume.pdf">Resume`</a></li>-->
+						<li><a href="http://www.jaychakalasiya.com" class="call-to-action">About Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="fh5co-cover fh5co-cover-style-2" data-stellar-background-ratio="0.7" data-next="yes"  style="min-height:370px;background-image:url(image.header.jpg);background-size: 100% 40%;"><!--400 x 85 in corel -->
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover-text">
+
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-push-5 col-md-12">
+							<div class="fh5co-cover-intro" style="margin-bottom:100px">
+								<h1 class="cover-text-lead wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" style="font-size:40px;margin-top:230px">Use Of Pickle to Store and Retrive data</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+<div class="OwnContent">
+	<br>
+	<p style="font-size:15px">Storing and retrieving is a crucial task to avoid re-processing for same data again. Mostly we can found data in .csv format so you might fimiliar with <strong><a href="../Introduction to Pandas/index.html">pandas</a></strong>. </p>
+	
+	<p style="font-size:19px;color:black;">Problems with Pandas</p>
+	<p style="font-size:15px">You have two statements, each with diffrent number of words, represented as below.
+	
+	
+</div>
+
+  <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ls</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[30]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[[&#39;Hi,&#39;, &#39;I&#39;, &#39;am&#39;, &#39;Jay.&#39;], [&#39;This&#39;, &#39;is&#39;, &#39;Jupyter&#39;]]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">ls</span><span class="p">)</span>
+<span class="n">df</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[31]:</div>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Hi,</td>
+      <td>I</td>
+      <td>am</td>
+      <td>Jay.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>This</td>
+      <td>is</td>
+      <td>Jupyter</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+
+
+<div class="OwnContent">
+	<br>
+	<p style="font-size:15px">
+	Can you see that "None". That's the problem and a huge problem while working with oddly distributed data. It consumes so much memory as well as add read, write overhead.
+	</p>
+	<br>
+	<p style="font-size:19px;color:black;">Issues with Pandas</p>
+	<p style="font-size:17px"><ul> <li>Take More memory</li><li> Slower while Storing/retrieving data ( You can only feel thas while working with data of size 100 or more MBs )</li><li>Can't handle multiple datatypes ( might change datatype )</li><li>No functionality to handle multidimentional data like image without distorting actual format.</ul>
+	<br><br>
+	<p style="font-size:19px;color:black;">Pickle:</p>
+	
+	<p style="font-size:15px"> A very  powerful library, It preserves the data as it's name suggests.
+</div>
+	
+	<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+	
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pickle</span>
+<span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;test&quot;</span><span class="p">,</span><span class="s1">&#39;wb&#39;</span><span class="p">)</span>
+<span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">ls</span><span class="p">,</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+	</div>
+	</div>
+	
+<div class="OwnContent">
+	<p style="font-size:15px">'wb' : stands for Write Binary<br>Now you can see a file named "<i>test</i>" in the same folder of your program file.
+	
+	
+	</div>
+	
+	
+	
+	<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">o</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;test&quot;</span><span class="p">,</span><span class="s1">&#39;rb&#39;</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">o</span><span class="p">,</span><span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;bytes&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[43]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[[&#39;Hi,&#39;, &#39;I&#39;, &#39;am&#39;, &#39;Jay.&#39;], [&#39;This&#39;, &#39;is&#39;, &#39;Jupyter&#39;]]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="OwnContent">
+	<p style="font-size:15px">'rb' : stands for read Binary<br>We had retrived our actual data in same form as before.<br><br>For the user of python 2.x.x use cPickle instead of pickle it is almost 1000 faster. Python 3.x.x already imports faster version if available.</p>
+
+	<br>
+	<p style="font-size:19px;color:black;">How it works:</p>
+	<p style="font-size:15px;">pickle serializes the python obejects to binary and store as it it, for Example to store csv we might need different definition of datatype for each column, but if datatype is same pickle will store only one definition.<br><br>Inshort pickle stores data in same format as in running program.</p>
+	
+	<br>
+	<p style="font-size:19px;color:black;">An Experiment:</p>
+	<p style="font-size:17px"><ul> <li>Take a big numpy array ( Aroudly take 1000 x 1000 x 1000 entries in any form for actually feel difference. )</li><li>Dump it with Pickle and store it with Pandas</li><li>Read with both and compare the speed and simplicity</li></ul>
+	</p>
+	<br>
+	<br>
+	<p style="font-size:19px;color:black;">Conclusion</p>
+	<p style="font-size:15px">Pickle is useful when it comes to just storing large data, it can do it in seconds, In my experience it can store 4 Gigs of data in just 15 seconds. Good luck with experiments....</p>
+</div>
+
+<br>
+	
+	<div id="disqus_thread" style="margin-left:15%;margin-right:15%"></div>
+	<script>
+
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	
+	var disqus_config = function () {
+	this.page.url = 'https://jay-chakalasiya.github.io/micro-posts/Use%20of%20Pickle/index.html' // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = 'micro-posts/Use%20of%20Pickle'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://jay-chakalasiya.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+		<div class="fh5co-footer-style-3">
+			<div class="container">
+				<div class="row p-b">
+					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+						<img src="../../images/paperplane.png" alt="Paper Plane" class="image-align" /><br>
+						<p class="fh5co-copyright"><a href="#">Flying Pages </a> &copy; Sparrow Tech. <br> <br>Designed by <a>Jay Chakalasiya</a> <br> <br>
+							Image Credits: <a target="_blank" href="http://unsplash.com/">Unsplash</a>, <a target="_blank" href="http://pexels.com/">Pexels</a></p>
+					</div>
+					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+						<h3>Careers</h3>
+						<ul class="fh5co-links">
+							<li><a>Inphy Corp.</a></li>
+
+						</ul>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
+						<h3>Connect</h3>
+						<ul class="fh5co-links fh5co-social">
+							<li><a href="https://www.facebook.com/jay.chakalasiya"><i class="icon icon-facebook2"></i> Facebook</a></li>
+							<li><a href="https://twitter.com/JayChakalasiya"><i class="icon icon-twitter"></i> Twitter</a></li>
+							<li><a href="https://www.linkedin.com/in/jay-chakalasiya-a3371b115/"><i class="icon icon-linkedin"></i> Linked-In</a></li>
+							<li><a href="https://github.com/jay-chakalasiya"><i class="icon icon-github"></i> Github</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
+						<h3>About</h3>
+						<p>Property of Jay Chakalasiya</p>
+						<p><a href="http://www.jaychakalasiya.com" class="btn btn-success btn-sm btn-outline">About Me</a></p>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+				</div>
+				<div class="row fh5co-made">
+					<div class="col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+						<p>Made with <i class="heart icon-heart"></i> in India</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- END footer -->
+
+	</div>
+	<!-- END page-->
+
+
+	<script src="../../js/jquery.min.js"></script>
+
+	<script src="../../js/jquery.easing.1.3.js"></script>
+
+	<script src="../../js/bootstrap.min.js"></script>
+
+   <script src="../../js/jquery.waypoints.min.js"></script>
+
+	<script src="../../js/owl.carousel.min.js"></script>
+
+	<script src="../../js/jquery.magnific-popup.min.js"></script>
+
+	<script src="../../js/jquery.stellar.min.js"></script>
+
+	<script src="../../js/jquery.countTo.js"></script>
+
+	<script src="../../js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<script src="../../js/main.js"></script>
+
+  <!--<script src="js/jquery.min.js"></script>
+
+	<script src="js/jquery.easing.1.3.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+
+   <script src="js/jquery.waypoints.min.js"></script>
+
+	<script src="js/owl.carousel.min.js"></script>
+
+	<script src="js/jquery.magnific-popup.min.js"></script>
+
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<script src="js/jquery.countTo.js"></script>
+
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<script src="js/main.js"></script>
+-->
+
+	</body>
+</html>
