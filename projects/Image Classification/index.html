@@ -886,7 +886,7 @@ So now we are using pre filtered dataset of cifar-10 for our experiment, downloa
 
 <div class="container">
 <p style="font-size:15px; text-align:justify">
-<center><img src="classes.JPG" width=80%></img></center>
+<center><img src="classes.JPG" width=80%></center>
 	Now we have class values, and dataset ready, we are now going to train our algorithm, but before doing that, for satrters I prefer to use gray scale images for simplicity, and we still got results as this is comparitively simple dataset. so let's convert RGB to Gray scale, but before that we have differentiate the R, G abd B elements.
 </p>
 </div>
@@ -976,7 +976,7 @@ So now we are using pre filtered dataset of cifar-10 for our experiment, downloa
 <div class="container">
 	<p style="font-size:23px;color:black;">2) - Introduction to Nueral Network</p><br>
 	<p style="font-size:15px; text-align:justify"> Before we start with fully connected layers, Let's take a look at Deep Learning and Neural Networks </p>
-	<center><img src="Intro-Neural_Cell.jpg"></img></center>
+	<center><img src="Intro-Neural_Cell.jpg"></center>
 	<p style="font-size:15px; text-align:justify">
 	The Artificial Neural Network, contains Neural cells as atomic module, It is the smallest unit of a Artificial brain as Neuron is smallest part of our brain.
 	<br><br>
@@ -985,7 +985,7 @@ So now we are using pre filtered dataset of cifar-10 for our experiment, downloa
 	<p style="font-size:15px; text-align:justify">
 	Now consider a huge network of this neurons containing several thousand or even million neurons, connected to each other, may be some neurons not connected to all of them, Pretty hard to manage and even think or visualize so we use the concept of layers for simplicity.
 	</p>
-	<center><img src="ANN.jpg"></img></center>
+	<center><img src="ANN.jpg"></center>
 	<p style="font-size:15px; text-align:justify">
 	Each dot in image is representing a Neuron, Here we define several layers like one input layer, one outpit layer and hidden layers which lies b/w input and output layers is ranging in number as per requirement.
 	<br>
@@ -994,7 +994,7 @@ So now we are using pre filtered dataset of cifar-10 for our experiment, downloa
 	</p>
 	<br>
 	<p style="font-size:19px;color:black;"><B>Backpropogation</b></p>
-	<center><img src="Gradient_Descent.jpg" width=60%></img></center>
+	<center><img src="Gradient_Descent.jpg" width=60%></center>
 	<p style="font-size:15px; text-align:justify">It's is all understandable that how this network works, but the problem is we have to set the weight of links in such a way that it will lead us to require answers. How can we do that, random procedure may take years or more as weight can be fractions, So we here use concept of backpropogation. We find error in our answer and adjust the weight so that it will reduce the error, Although it is the huge topic of study, so i won't cover here. but some basic things to know here is there are many optimizers which can do this job like Gradient descent and Adam optimizer.
 	
 	<br><br>
@@ -1301,7 +1301,7 @@ Any way this netwrok is useless to us as it is almost random, because image data
 	<p style="font-size:15px; text-align:justify">
 	Ler's start with quick intro to RNN. What really important and we need to know is RNNs keeps the previous training set and add some part of it in current value, so output depends upon current training tuple as well as previous tuple.
 	</p>
-	<center><img src="RNN.jpg" width=60%></img></center>
+	<center><img src="RNN.jpg" width=60%></center>
 	<p style="font-size:15px; text-align:justify">
 	<br>
 	For example, suppose we are working to make a ChatBot, then the previous statement might give reasoning to produce the current statement. same thing we are going to apply on image. we have image size 32 x 32, we are going to devide the image in 16 parts, each of which contains 64 pixels, so network propogate 16 times and as you can see from image above the each 64 bits will use some part of previous 64-bits as well.
@@ -1471,9 +1471,9 @@ Training Step: 2346  | total loss: <span class="ansi-green-intense-fg ansi-bold"
 <div class="container">
 <p style="font-size:15px; text-align:justify">
 Accuracy Graph for training set : <br>
-<center><img src="RNN-Tensorboard-Accuracy.JPG" width=100%></img></center>
+<center><img src="RNN-Tensorboard-Accuracy.JPG" width=100%></center>
 Loss Graph for training set : <br>
-<center><img src="RNN-Tensorboard-Loss.JPG" width=100%></img></center>
+<center><img src="RNN-Tensorboard-Loss.JPG" width=100%></center>
 
 <br>
 There are many grapha to see as well, as you can see that the accuracy is increasing at lower rate but loss is still fluctuating, as i said before decrement of loss suggests the efficient network, so you can experiment wirh same network for more layers or more epochs may be.
@@ -1493,7 +1493,7 @@ If you have any query or doubts just go below or click <a href="#Comments">here<
 	I'm, using Tensorflow and TFLearn, if you new to it or dont know how to install check this links : <a href="../../micro-posts/Installing%20Tensorflow/index.html">Installing tensorflow</a> and <a href="../../micro-posts/Tensorflow%20for%20GPU%20support/index.html">Tensorflow for GPU support</a>.
 	
 	<br>	
-	<center><img src="CNN.jpg" width=100%></img></center>
+	<center><img src="CNN.jpg" width=100%></center>
 	<br>
 	Before starting let's take a quick look at Standard structure of Convolution Neural Network : 
 	<br>
@@ -1649,8 +1649,8 @@ If you have any query or doubts just go below or click <a href="#Comments">here<
 	Let's have look at graphs
 	<br>
 	<ul><li><font color=black>Orange : </font>Convolution Network</li><li><font color=black>Blue : </font>LSTM Network</li></ul>
-	<center><img src="CNN-RNN-Tensorboard-Accuracy.JPG" width=100%></img></center>
-	<center><img src="CNN-RNN-Tensorboard-Loss.JPG" width=100%></img></center>
+	<center><img src="CNN-RNN-Tensorboard-Accuracy.JPG" width=100%></center>
+	<center><img src="CNN-RNN-Tensorboard-Loss.JPG" width=100%></center>
 	<br>
 	Our CNN network beats the LSTM by very high value, but this results are till 3-epochs, and Accuracy is about 55%, and loss is quite less as compare to LSTM, which is very good thing.
 	
@@ -1662,7 +1662,7 @@ If you have any query or doubts just go below or click <a href="#Comments">here<
 	Accuracy after 9th epoch
 	<br>
 	<table>
-	<tr><td><img src="CNN-Accuracy.JPG" width=80%></img></td><td><img src="CNN-Loss.JPG" width=80%></img></td></tr>
+	<tr><td><img src="CNN-Accuracy.JPG" width=80%></td><td><img src="CNN-Loss.JPG" width=80%></td></tr>
 	</table>
 	If you have any doubts just write it <a href="#Comments">here</a>.
 	
@@ -1867,7 +1867,7 @@ If you have any query or doubts just go below or click <a href="#Comments">here<
 
 
 <div class="container">
-<center><img src="Output-Test.jpg" width=80%></img><center>
+<center><img src="Output-Test.JPG" width=80%><center>
 	<p style="font-size:15px; text-align:justify">
 	
 	our model efficiency is 80% with training of 20 epochs, it can improve even further till 90% then it is almost stable, i'm considering training for 20 epochs and 80 % efficiency so stastically we have 2000 images which are predicted wrogly by our predictor, so let's see them.., some images are even that complicated that we even can't sure about any class..
@@ -1916,7 +1916,7 @@ If you have any query or doubts just go below or click <a href="#Comments">here<
 </div>
 
 <div class="container">
-<center><img src="Output-Wrong.jpg" width=80%></img><center>
+<center><img src="Output-Wrong.JPG" width=80%><center>
 	<p style="font-size:15px; text-align:justify">
 	Here first label shows the actual one and second is predicted by our model, You can see that image in third row and first column it is pretty hard to detect, and think that the algorithm is running on Gray scale images, plot the Gray scale image for the same and try to predict.. So i can say that model is kind of awesome, don't you think ??
 	</p>
