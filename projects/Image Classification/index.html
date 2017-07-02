@@ -886,7 +886,7 @@ So now we are using pre filtered dataset of cifar-10 for our experiment, downloa
 
 <div class="container">
 <p style="font-size:15px; text-align:justify">
-<center><img src="classes.JPG" width=80%></center>
+<center><img src="class-labels.JPG" width=70%></center>
 	Now we have class values, and dataset ready, we are now going to train our algorithm, but before doing that, for satrters I prefer to use gray scale images for simplicity, and we still got results as this is comparitively simple dataset. so let's convert RGB to Gray scale, but before that we have differentiate the R, G abd B elements.
 </p>
 </div>
@@ -975,9 +975,9 @@ So now we are using pre filtered dataset of cifar-10 for our experiment, downloa
 <div id="Intro">
 <div class="container">
 	<p style="font-size:23px;color:black;">2) - Introduction to Nueral Network</p><br>
-	<p style="font-size:15px; text-align:justify"> Before we start with fully connected layers, Let's take a look at Deep Learning and Neural Networks </p>
-	<center><img src="Intro-Neural_Cell.jpg"></center>
-	<p style="font-size:15px; text-align:justify">
+	<p style="font-size:15px; text-align:justify"> Before we start with fully connected layers, Let's take a look at Deep Learning and Neural Networks
+	<center><img src="Intro-Neural_Cell.jpg" width=80%></center>
+	
 	The Artificial Neural Network, contains Neural cells as atomic module, It is the smallest unit of a Artificial brain as Neuron is smallest part of our brain.
 	<br><br>
 	All Artificial Neurons now I will term them as Neurons are connected to each other by some link, each link has some weight. Each neuron has to do some defined things like shown in image here,<br><ul><li> Neuron intercenpts the input and multiply it with relevent link weights. - <font style="color:black"><b>x1*w1 and so on</b></font></li><li> sum it up = <font style="color:black">"<b>x1*w1 + x2*w2... "</b></font></li><li> then apply a mathematical function on the result known as activation function. = <font style="color:black"><b>sinh(Output)</b></font></li><li> and at last it will pass this output to another neuron</li></ul>
@@ -993,8 +993,8 @@ So now we are using pre filtered dataset of cifar-10 for our experiment, downloa
 	For, application of fully connected layers, All the neurons in previous layers are connected with each neuron of next layer. and functionaning of the each neuron is same is defined above.
 	</p>
 	<br>
-	<p style="font-size:19px;color:black;"><B>Backpropogation</b></p>
-	<center><img src="Gradient_Descent.jpg" width=60%></center>
+	<p style="font-size:19px;color:black;"><B>Backpropogation</b>
+	<center><img src="Gradient_Descent.jpg" width=70%></center></p>
 	<p style="font-size:15px; text-align:justify">It's is all understandable that how this network works, but the problem is we have to set the weight of links in such a way that it will lead us to require answers. How can we do that, random procedure may take years or more as weight can be fractions, So we here use concept of backpropogation. We find error in our answer and adjust the weight so that it will reduce the error, Although it is the huge topic of study, so i won't cover here. but some basic things to know here is there are many optimizers which can do this job like Gradient descent and Adam optimizer.
 	
 	<br><br>
@@ -1867,7 +1867,7 @@ If you have any query or doubts just go below or click <a href="#Comments">here<
 
 
 <div class="container">
-<center><img src="Output-Test.JPG" width=80%><center>
+<center><img src="Output-Test.JPG" width=90%><center>
 	<p style="font-size:15px; text-align:justify">
 	
 	our model efficiency is 80% with training of 20 epochs, it can improve even further till 90% then it is almost stable, i'm considering training for 20 epochs and 80 % efficiency so stastically we have 2000 images which are predicted wrogly by our predictor, so let's see them.., some images are even that complicated that we even can't sure about any class..
@@ -1916,7 +1916,7 @@ If you have any query or doubts just go below or click <a href="#Comments">here<
 </div>
 
 <div class="container">
-<center><img src="Output-Wrong.JPG" width=80%><center>
+<center><img src="Output-Wrong.JPG" width=90%><center>
 	<p style="font-size:15px; text-align:justify">
 	Here first label shows the actual one and second is predicted by our model, You can see that image in third row and first column it is pretty hard to detect, and think that the algorithm is running on Gray scale images, plot the Gray scale image for the same and try to predict.. So i can say that model is kind of awesome, don't you think ??
 	</p>
