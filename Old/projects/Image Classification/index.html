@@ -1,0 +1,2050 @@
+
+<!DOCTYPE html>
+	<html class="no-js">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Flying Pages - Projects - Image Classification</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A Personal Project Site by Jay Chakalasiya" />
+	<meta name="keywords" content="html5, bootstrap, css3, mobile first, responsive" />
+	<meta name="author" content="Jay Chakalasiya" />
+	<meta name="website" content="jaychakalasiya.com"/>
+
+  <!--
+	/////////////////////////////////////////////////////
+
+	Website: 		www.jaychakalasiya.com
+	Email: 			self@jaychakalasiya.com, chakalasiyajay00@gmail.com
+	Twitter: 		https://twitter.com/JayChakalasiya
+	Facebook: 		https://www.facebook.com/jay.chakalasiya
+
+	//////////////////////////////////////////////////////
+	-->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="../../css/Jupyter/Ansi.css">
+	<link rel="stylesheet" href="../../css/Jupyter/Highlight.css">
+	<link rel="stylesheet" href="../../css/Jupyter/Notebook.css">
+	<!--link rel="stylesheet" href="../../css/Jupyter/Override.css"-->
+	<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+			tex2jax: {
+					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true,
+					processEnvironments: true
+			},
+			displayAlign: 'center',
+			"HTML-CSS": {
+					styles: {'.MathJax_Display': {"margin": 0}},
+					linebreaks: { automatic: true }
+			}
+	});
+	</script>
+
+
+
+
+	<link rel="shortcut icon" href="../favicon.ico">
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Monsterrat:400,700|Merriweather:400,300italic,700' rel='stylesheet' type='text/css'>
+
+
+	<link rel="stylesheet" href="../../css/animate.css">
+	<link rel="stylesheet" href="../../css/icomoon.css">
+	<link rel="stylesheet" href="../../css/magnific-popup.css">
+	<link rel="stylesheet" href="../../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="../../css/cards.css">
+	<script src="../../js/modernizr-2.6.2.min.js"></script>
+	<link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../css/animate.min.css" rel="stylesheet">
+	<link href="../../css/font-awesome.min.css" rel="stylesheet">
+	<link href="../../css/lightbox.css" rel="stylesheet">
+	<link href="../../css/main.css" rel="stylesheet">
+	<link id="css-preset" href="../../css/presets/preset1.css" rel="stylesheet">
+	<link href="../../css/responsive.css" rel="stylesheet">
+	<link href="../../css/myOwnContent.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+	</head>
+
+
+
+	<body>
+
+	<div id="fh5co-page">
+
+		<nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
+			<div class="container">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fh5co-logo">
+					<a href="#" class="js-fh5co-mobile-toggle fh5co-nav-toggle"><i></i></a>
+					<a href="#"><img src="../../images/paperplane.png" alt="Paper Plane" height="50px" width="50px" class="image-align" /><strong>  Flying Pages<strong><br></a>
+				</div>
+				<div class="col-lg-6 col-md-5 col-sm-5 text-center fh5co-link-wrap">
+
+					<div> <!--class="container"-->
+						<div class="collapse navbar-collapse" style="background-color:rgba(255,255,255,0);">
+							<ul data-offcanvass="yes">
+								<li class="scroll"><a href="https://github.com/jay-chakalasiya">Github</a></li>
+								<li class="scroll"><a href="../../index.html">Home</a></li>
+								<!--<li class="scroll"><a href="#micro-posts">Micro-Posts</a></li>
+								<li class="scroll"><a href="#future-works">Future-Works</a></li>-->
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 text-right fh5co-link-wrap">
+					<ul class="fh5co-special" data-offcanvass="yes">
+						<!--<li><a href="resume.pdf">Resume`</a></li>-->
+						<li><a href="http://www.jaychakalasiya.com" class="call-to-action">About Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="fh5co-cover fh5co-cover-style-2 js-half-height" data-stellar-background-ratio="0.7" data-next="yes"  style="min-height:370px;background-image:url(image.header.jpg);background-size: 100% 40%;"><!--200 x 43 in corel -->
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover-text">
+
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-push-5 col-md-12">
+							<div class="fh5co-cover-intro" style="margin-bottom:100px">
+								<h1 class="cover-text-lead wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" style="font-size:40px;margin-top:230px">Image Classification</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+<div class="container">
+	<br>
+	<p style="font-size:19px;color:black;">What is it ? </p>
+	<p style="font-size:15px; text-align:justify">Image Classification is the task of distinguishing image from one another. Here we are going to classify images based on Supervised Learning algorithm. When we have training set for machine as well as the actual outcomes for training set and we are keep pushing algorithm to fit it self in actual outcome self then it is known supervised learning. To know more about learning algorithm types follow <a href="http://www.dummies.com/programming/big-data/data-science/3-types-machine-learning/">this link</a>.</p>
+	<br>
+	<br>
+
+	<p style="font-size:19px;color:black;">Aim and Expected outcome</p>
+	<p style="font-size:15px; text-align:justify">The Aim of this project is to compare different Neural Net structure accuracy over differrent parameters to classify cifar-10 dataset.</p>
+	<p style="font-size:15px; text-align:justify">We conduct this experiment in following order</p>
+	<div class="collapse navbar-collapse" style="background-color:rgba(255,255,255,0);">
+		<ul data-offcanvass="yes">
+			<li class="scroll"><a href="#Preprocessing">Pre-Processing data</a></li>
+			<li class="scroll"><a href="#Intro">Introduction to Neural Nets</a></li>
+			<li class="scroll"><a href="#FC">Experiment with Fully Connected Layers(FC)</a></li>
+			<li class="scroll"><a href="#RNN">Reccurent Neural Networks and LSTM</a></li>
+			<li class="scroll"><a href="#CNN">Convolution Neural Networks</a></li>
+			<li class="scroll"><a href="#Results">Visualizing Outcomes</a></li>
+			<li class="scroll"><a href="#Conclusion">Conclusion</a></li>
+			<li class="scroll"><a href="#Comments">Comments</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="Preprocessing">
+<div class="container">
+	<p style="font-size:23px;color:black;">1) - Preprocessing</p><br>
+	
+	<p style="font-size:15px; text-align:justify"> The first task of any machine learning experiment is preprocessing, includes reading data, filtering it and converting in the required form.</p>
+	<p style="font-size:15px; text-align:justify"> Let's get dataset first, We are going to use tiny image net dataset from stanford, you can find it <a href="http://cs231n.stanford.edu/tiny-imagenet-200.zip">here</a>.If you know how to read an image then move to next step
+	Extract the package, this dataset contains more than 50,000 images distributed across 100 classes.</p>
+	
+	Take any image as like <a href="plane.jpg">this one</a>
+</div>
+	
+	
+	<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+	
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.image</span> <span class="k">as</span> <span class="nn">mpimg</span>
+<span class="kn">from</span> <span class="nn">scipy.ndimage</span> <span class="k">import</span> <span class="n">imread</span>
+<span class="n">Image</span> <span class="o">=</span> <span class="n">mpimg</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s2">&quot;plane.jpg&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+	</div>
+	</div>
+
+
+	
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	Using scipy we can read a image as shown above, Image is an array containing pixels of image from link given above.
+	</p>
+</div>
+
+	<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">Image</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>numpy.ndarray</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Image</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(416, 416, 3)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	You can see that, The Image object type is a N-d array in our our case is 3-D array 2 dimentions for height and width and another one is for depth used to store different RGB values for each pixel
+	Let's visulalize our image.
+	</p>
+</div>
+
+
+	<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">Image</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Image&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQUAAAEKCAYAAAAbwEBEAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAALEgAACxIB0t1+/AAAIABJREFUeJzsvXmUZNdd5/n53fteROSeWYtq12pZm3Hb2MgYAy5veLcY
+u/EYuwHbPRxzPDScoaexzXQjQc8Y1A1Ndx+PDz20u49p6DEGhsYsXrEFSCAjsBbLWkpVqirVmrXk
+vkTEe/f+5o/7IjIilarKyorI9X58yop8+SLefZHvfd+9v1VUlUgkEmlg1noAkUhkfRFFIRKJtBFF
+IRKJtBFFIRKJtBFFIRKJtBFFIRKJtBFFIRKJtBFFYYshIkdF5PVrPY7I+iWKQiQSaSOKwhZFRH5C
+RO4XkX8nIuMiclhEXl1sf05EzorIj7fs/zYR+ZaITIrIcRG5e9Hn/biIHBOR8yLyL1tnJBL4eHGM
+8yLyOREZXu1zjiyPKApbm1cBjwDbgP8X+BzwSuAm4MeAT4lIb7HvDPBjqjoEvB34KRF5F4CI3A78
+38CPAnuAIWBvy3F+BngX8APF9nHg0109s8iKkZj7sLUQkaPAPwUOAL+gqrcU218CPArsUtULxbYL
+wOtV9bElPuc3AK+q/1xE/hVwq6p+oPhdDzABvFVVvy4iTwD/q6p+o/j9HuA4UFFV3+VTjlwhyVoP
+ILKmjLa8ngdoCELLtn4AEXkV8CvAS4BS8e/3i/32Aicab1LVeRG52PI51wF/JCINARAgA3YBZzp1
+MpHOEJcPkeXyu8D/APap6jDwnwg3N4Qbe39jx2KmsL3lvc8RZg3bin8jqtqnqlEQ1iFRFCKtyCV+
+1w+Mq2omIncC72/53R8A7xSR7xWRFLhn0Xv/E/BJEbkWQER2NuwRkfVHFIWtx6WMSIt/1/rzR4F/
+LSKTwL8Efq+5k+oTwD8rtp0GpoBzQK3Y5T8Afwx8pXj/3wB3XsU5RLpI1wyNIvIW4N8ThOczqnpv
+Vw4UWXeISB/B0PgiVT2+1uOJXBldmSmIiAE+BbwZuAP4URG5tRvHiqwPROQdItJTCMKvA49FQdiY
+dGv5cCfwjKoeV9WM4P++q0vHiqwP7iIsHU4S4hzet7bDiayUbrkk99HioiJcKHENuYlR1Z8EfnKt
+xxG5eqKhMRKJtNGtmcIp4NqWn/cX25qISAyljETWEFVd0gXdrZnCQ8CLROQ6ESkR1pdfWLzT3Xff
+japuqn+b8ZzieW2sf8s5p0vRlZmCqjoR+WngKyy4JJ/sxrEikUhn6Vrug6p+CbilW58fiUS6w5oa
+Gg8ePLiWh+8Km/GcIJ7XRuJqz2nNUqdFRNfq2JHIVkdE0FU2NEYikQ1KFIVIJNJGFIVIJNJGFIVI
+JNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJG
+FIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVI
+JNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJG
+FIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVIJNJGFIVI
+JNJGFIVIJNLGZUVBRD4jIqMi8ljLthER+YqIPC0iXxaRoZbffUJEnhGRJ0Xkh7o18Egk0h2WM1P4
+r8CbF237OPA1Vb0F+DrwCQARuR14L3Ab8Fbg0yIinRtuJBLpNpcVBVW9HxhftPku4LPF688CP1y8
+fhfwOVXNVfUY8AxwZ2eGGolEVoOV2hSuUdVRAFU9C1xTbN8HnGjZ71SxLRKJbBA6ZWjUDn1OJBJZ
+Y5IVvm9URHap6qiI7AbOFdtPAQda9ttfbFuSe+65p/n64MGDHDx4cIXDiUQil+K+++7jvvvuW9a+
+onr5h7yIXA/8iap+V/HzvcCYqt4rIh8DRlT144Wh8XeBVxGWDV8FbtYlDiIiS22ORCKrgIigqks6
+AS47UxCR/w4cBLaLyHPA3cCvAr8vIh8GjhM8DqjqEyLyeeAJIAM+Gu/8SGRjsayZQlcOHGcKkcia
+camZQoxojEQibazU0BiJRFaCguJQDc9jY5T19mxeX6OJRDY5CigGUMQIbh3egutvRJHIpsYjCqgH
+zTHr0KwWRSESWUUEjyI4Y1FA1qGxPYpCJLJCVJv/h6qG1wqqHsWjNLb5xq+Yqyt/f3ySh75znLqa
+sJxYZ8IQXZKRyApxhRAIikh4viqKYjAaXiGe3Fsmqxl/+PBF/uQfjrBreJhPvWM3dZcxuH0XxhpU
+g7CICKuRWHxVwUuRSGRpLKAiIAKah42aYAQ8gqjwlW+f4wtHpjlx4gRpZZDrdg3x7hcPMEuJ1KSM
+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
+zArvqBEVLRMcmtYAAAAASUVORK5CYII=
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	Hurray, We got a plane.<br>
+	reading an image is easy task, but what about we have a lots of images in our case it is 50000, and distributed across variety of directories, then follow the code below.
+	</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="n">contents</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;tiny-imagenet-200/train&quot;</span><span class="p">)</span>
+
+<span class="n">train_xRGB</span><span class="o">=</span><span class="p">[]</span>
+
+<span class="n">class_counter</span><span class="o">=</span><span class="mi">0</span>
+<span class="k">while</span> <span class="n">class_counter</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">contents</span><span class="p">):</span>
+    
+    <span class="n">files</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;tiny-imagenet-200/train/&quot;</span><span class="o">+</span><span class="n">contents</span><span class="p">[</span><span class="n">class_counter</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot;/images&quot;</span><span class="p">)</span>
+    <span class="n">file_counter</span><span class="o">=</span><span class="mi">0</span>
+    <span class="k">while</span> <span class="n">file_counter</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">files</span><span class="p">):</span>
+        
+        <span class="n">Image</span> <span class="o">=</span> <span class="n">mpimg</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s2">&quot;tiny-imagenet-200/train/&quot;</span><span class="o">+</span><span class="n">contents</span><span class="p">[</span><span class="n">class_counter</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot;/images/&quot;</span><span class="o">+</span><span class="n">files</span><span class="p">[</span><span class="n">file_counter</span><span class="p">])</span>                           
+        <span class="n">train_xRGB</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Image</span><span class="p">)</span>
+        <span class="n">file_counter</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="n">class_counter</span><span class="o">+=</span><span class="mi">1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+This code reads all the images and put in a list named train_RGB, but it is not done yet still we require the labels for the images we had justb read, and some images are gray scale so either we have to convert it to RGB or filter them out, it is not hard but time consuming and boring task.<br>
+So now we are using pre filtered dataset of cifar-10 for our experiment, download it from <a href="https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz">here</a>. 
+<br><br>The dataset is stored using pickle, if you are unfimiliar with it check <a href="../../micro-posts/Use%20of%20Pickle/index.html">Use of Pickle</a> micro-post.
+</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">unpickle</span><span class="p">(</span><span class="n">file</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">pickle</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fo</span><span class="p">:</span>
+        <span class="nb">dict</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">fo</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;bytes&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">dict</span>
+
+<span class="k">def</span> <span class="nf">pickle_data</span><span class="p">(</span><span class="n">train_x</span><span class="p">,</span> <span class="n">train_y</span><span class="p">,</span> <span class="n">test_x</span><span class="p">,</span> <span class="n">test_y</span><span class="p">,</span><span class="n">Name</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">pickle</span>
+    <span class="n">final_list</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;train_x&#39;</span><span class="p">:</span><span class="n">train_x</span><span class="p">,</span> <span class="s1">&#39;train_y&#39;</span><span class="p">:</span><span class="n">train_y</span><span class="p">,</span> <span class="s1">&#39;test_x&#39;</span><span class="p">:</span><span class="n">test_x</span><span class="p">,</span> <span class="s1">&#39;test_y&#39;</span><span class="p">:</span><span class="n">test_y</span><span class="p">}</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">Name</span><span class="p">,</span><span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">final_list</span><span class="p">,</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+	Pickle and Unpickle functions used to read and write the data to file respectively.<br> Let's see what our raw data file contais ...
+</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Data1</span> <span class="o">=</span> <span class="n">unpickle</span><span class="p">(</span><span class="s2">&quot;cifar-10/data_batch_1&quot;</span><span class="p">)</span>
+<span class="nb">list</span><span class="p">(</span><span class="n">Data1</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[6]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[b&#39;data&#39;, b&#39;batch_label&#39;, b&#39;labels&#39;, b&#39;filenames&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+	b'data contains the actual image data, b'batch_label contains file numbers , b'label contains class label and b'filename has actual filenames. Here we only requires two things data and class labels.
+</p>
+</div><br><br>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ls_train</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;cifar-10/data_batch_1&quot;</span><span class="p">,</span><span class="s2">&quot;cifar-10/data_batch_2&quot;</span><span class="p">,</span><span class="s2">&quot;cifar-10/data_batch_3&quot;</span><span class="p">,</span><span class="s2">&quot;cifar-10/data_batch_4&quot;</span><span class="p">,</span><span class="s2">&quot;cifar-10/data_batch_5&quot;</span><span class="p">]</span>
+<span class="n">ls_test</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;cifar-10/test_batch&quot;</span><span class="p">]</span>
+<span class="n">data_label</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;data&#39;</span>
+<span class="n">class_label</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;labels&#39;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+	Let's define all the file names we need to read and label names. As below we can define a function and read the data
+</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">create_featureset</span><span class="p">(</span><span class="n">files</span><span class="p">,</span><span class="n">data_label</span><span class="p">,</span><span class="n">class_label</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+    <span class="n">X</span><span class="o">=</span><span class="p">[]</span>
+    <span class="n">Y</span><span class="o">=</span><span class="p">[]</span>
+    
+    <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">ls_train</span><span class="p">):</span>
+        <span class="n">contents</span> <span class="o">=</span> <span class="n">unpickle</span><span class="p">(</span><span class="n">ls_train</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="n">X</span><span class="o">=</span><span class="n">X</span><span class="o">+</span><span class="nb">list</span><span class="p">(</span><span class="n">contents</span><span class="p">[</span><span class="n">data_label</span><span class="p">])</span>
+        <span class="n">Y</span><span class="o">=</span><span class="n">Y</span><span class="o">+</span><span class="nb">list</span><span class="p">(</span><span class="n">contents</span><span class="p">[</span><span class="n">class_label</span><span class="p">])</span>
+        <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+    
+    <span class="c1">#--------- To vectorize the class value -------#</span>
+        
+    <span class="n">Vectorized_y</span> <span class="o">=</span> <span class="p">[]</span>  
+    <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">Y</span><span class="p">):</span>
+        <span class="n">current_y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="mi">10</span>
+        <span class="n">current_y</span><span class="p">[</span><span class="n">Y</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">=</span><span class="mi">1</span>
+        <span class="n">Vectorized_y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">current_y</span><span class="p">))</span>
+        <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="n">Y</span> <span class="o">=</span> <span class="n">Vectorized_y</span>
+    
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">X</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span>
+        
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_x</span><span class="p">,</span> <span class="n">train_y</span> <span class="o">=</span> <span class="n">create_featureset</span><span class="p">(</span><span class="n">ls_train</span><span class="p">,</span><span class="n">data_label</span><span class="p">,</span><span class="n">class_label</span><span class="p">)</span>
+<span class="n">test_x</span><span class="p">,</span> <span class="n">test_y</span> <span class="o">=</span> <span class="n">create_featureset</span><span class="p">(</span><span class="n">ls_test</span><span class="p">,</span><span class="n">data_label</span><span class="p">,</span><span class="n">class_label</span><span class="p">)</span>
+
+<span class="n">pickle_data</span><span class="p">(</span><span class="n">train_x</span><span class="p">,</span> <span class="n">train_y</span><span class="p">,</span> <span class="n">test_x</span><span class="p">,</span> <span class="n">test_y</span><span class="p">,</span><span class="s1">&#39;cifar-10.dataset&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+	We are storing data using pickle for future use incase we need to take a break and all data will wiped out from RAM, so its a good practice whule handling big datasets.
+
+	<br><br>Let's visulalize our classes, we will plot images for each class. <br>One image contains 3072 values, in which first 1024 values represents the Red value from RGB, in 32x32 format, so first we need to convert this data in form of 32 x 32 x 3 to plot it using matplotlib.
+</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">makeimage</span><span class="p">(</span><span class="n">d1_array</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+    <span class="n">d3_array</span><span class="o">=</span><span class="p">[]</span>
+    <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">32</span><span class="p">:</span>
+        <span class="n">row</span><span class="o">=</span><span class="p">[]</span>
+        <span class="n">j</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">while</span> <span class="n">j</span><span class="o">&lt;</span><span class="mi">32</span><span class="p">:</span>
+            <span class="n">cell</span><span class="o">=</span><span class="p">[]</span>
+            <span class="n">k</span><span class="o">=</span><span class="mi">0</span>
+            <span class="k">while</span> <span class="n">k</span><span class="o">&lt;</span><span class="mi">3</span><span class="p">:</span>
+                <span class="n">cell</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">d1_array</span><span class="p">[</span><span class="n">k</span><span class="o">*</span><span class="mi">1024</span><span class="o">+</span><span class="n">i</span><span class="o">*</span><span class="mi">32</span><span class="o">+</span><span class="n">j</span><span class="p">])</span>
+                <span class="n">k</span><span class="o">+=</span><span class="mi">1</span>
+            <span class="n">row</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">cell</span><span class="p">))</span>
+            <span class="n">j</span><span class="o">+=</span><span class="mi">1</span>
+        <span class="n">d3_array</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">row</span><span class="p">))</span>
+        <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="n">d3_array</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">d3_array</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">d3_array</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="n">image_counter</span><span class="o">=</span><span class="mi">0</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
+<span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+<span class="k">while</span> <span class="n">image_counter</span><span class="o">&lt;</span><span class="mi">10</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">train_y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">==</span><span class="n">image_counter</span><span class="p">:</span>
+        <span class="n">Image</span> <span class="o">=</span> <span class="n">makeimage</span><span class="p">(</span><span class="n">train_x</span><span class="p">[</span><span class="n">image_counter</span><span class="p">])</span>
+        
+        <span class="n">y</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="n">image_counter</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">Image</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;class :&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">train_y</span><span class="p">[</span><span class="n">i</span><span class="p">])))</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">get_xaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">get_yaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">image_counter</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span> 
+    
+</pre></div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+<center><img src="class-labels.JPG" width=70%></center>
+	Now we have class values, and dataset ready, we are now going to train our algorithm, but before doing that, for satrters I prefer to use gray scale images for simplicity, and we still got results as this is comparitively simple dataset. so let's convert RGB to Gray scale, but before that we have differentiate the R, G abd B elements.
+</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">Destribute_RGB</span><span class="p">(</span><span class="n">RGB_list</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+    <span class="n">R</span><span class="o">=</span><span class="p">[]</span>
+    <span class="n">G</span><span class="o">=</span><span class="p">[]</span>
+    <span class="n">B</span><span class="o">=</span><span class="p">[]</span>
+    <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">RGB_list</span><span class="p">):</span>
+        <span class="n">R</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">RGB_list</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="mi">1024</span><span class="p">])</span>
+        <span class="n">G</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">RGB_list</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1024</span><span class="p">:</span><span class="mi">2048</span><span class="p">])</span>
+        <span class="n">B</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">RGB_list</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2048</span><span class="p">:</span><span class="mi">3072</span><span class="p">])</span>
+        <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">R</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">G</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+	when we got R, G abd B, there is simple conversion fromula to convert it to Gray scale. and using numpy we dont even have to iterate loop so it is much faster.
+</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_xR</span><span class="p">,</span> <span class="n">train_xG</span><span class="p">,</span> <span class="n">train_xB</span> <span class="o">=</span> <span class="n">Destribute_RGB</span><span class="p">(</span><span class="n">train_x</span><span class="p">)</span>
+<span class="n">test_xR</span><span class="p">,</span> <span class="n">test_xG</span><span class="p">,</span> <span class="n">test_xB</span> <span class="o">=</span> <span class="n">Destribute_RGB</span><span class="p">(</span><span class="n">test_x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">Gray_Train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="mf">0.2989</span> <span class="o">*</span> <span class="n">train_xR</span> <span class="o">+</span> <span class="mf">0.5870</span> <span class="o">*</span> <span class="n">train_xG</span> <span class="o">+</span> <span class="mf">0.1140</span> <span class="o">*</span> <span class="n">train_xB</span><span class="p">,</span><span class="s1">&#39;int&#39;</span><span class="p">)</span>
+<span class="n">Gray_Test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="mf">0.2989</span> <span class="o">*</span> <span class="n">test_xR</span> <span class="o">+</span> <span class="mf">0.5870</span> <span class="o">*</span> <span class="n">test_xG</span> <span class="o">+</span> <span class="mf">0.1140</span> <span class="o">*</span> <span class="n">test_xB</span><span class="p">,</span><span class="s1">&#39;int&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+	</div>
+</div>
+	
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+	Now, if you want to save the processed data, then save it using the Pickle as above.
+</p>
+</div>
+
+</div> <!--End of Preprocesing -->
+<br>
+<br>
+<br>	
+	
+<div id="Intro">
+<div class="container">
+	<p style="font-size:23px;color:black;">2) - Introduction to Nueral Network</p><br>
+	<p style="font-size:15px; text-align:justify"> Before we start with fully connected layers, Let's take a look at Deep Learning and Neural Networks
+	<center><img src="Intro-Neural_Cell.jpg" width=80%></center>
+	
+	The Artificial Neural Network, contains Neural cells as atomic module, It is the smallest unit of a Artificial brain as Neuron is smallest part of our brain.
+	<br><br>
+	All Artificial Neurons now I will term them as Neurons are connected to each other by some link, each link has some weight. Each neuron has to do some defined things like shown in image here,<br><ul><li> Neuron intercenpts the input and multiply it with relevent link weights. - <font style="color:black"><b>x1*w1 and so on</b></font></li><li> sum it up = <font style="color:black">"<b>x1*w1 + x2*w2... "</b></font></li><li> then apply a mathematical function on the result known as activation function. = <font style="color:black"><b>sinh(Output)</b></font></li><li> and at last it will pass this output to another neuron</li></ul>
+	</p>
+	<p style="font-size:15px; text-align:justify">
+	Now consider a huge network of this neurons containing several thousand or even million neurons, connected to each other, may be some neurons not connected to all of them, Pretty hard to manage and even think or visualize so we use the concept of layers for simplicity.
+	</p>
+	<center><img src="ANN.jpg" width=70%></center>
+	<p style="font-size:15px; text-align:justify">
+	Each dot in image is representing a Neuron, Here we define several layers like one input layer, one outpit layer and hidden layers which lies b/w input and output layers is ranging in number as per requirement.
+	<br>
+	<br>
+	For, application of fully connected layers, All the neurons in previous layers are connected with each neuron of next layer. and functionaning of the each neuron is same is defined above.
+	</p>
+	<br>
+	<p style="font-size:19px;color:black;"><B>Backpropogation</b>
+	<center><img src="Gradient_Descent.jpg" width=70%></center></p>
+	<p style="font-size:15px; text-align:justify">It's is all understandable that how this network works, but the problem is we have to set the weight of links in such a way that it will lead us to require answers. How can we do that, random procedure may take years or more as weight can be fractions, So we here use concept of backpropogation. We find error in our answer and adjust the weight so that it will reduce the error, Although it is the huge topic of study, so i won't cover here. but some basic things to know here is there are many optimizers which can do this job like Gradient descent and Adam optimizer.
+	
+	<br><br>
+	<b><font style="color:black">- Optimizers are algorithms, which defines the procedure to reduce the error
+	<br>
+	- But the learning rate will decide how much we should move towards the slope of error reduction</font>, <br><br>Learning rate should not be so high as it can miss the lowest point, as it can not be too low as it can take huge time to approach the lowest point, so it shoul be some optimum value, there is no way we can decide it, but 10e-3 to 10e-5 generally works well.
+	<br><br>
+	So for the Fully Connected layer experiment, that's enough to know, as we will going to use some parameters to adjust the network. Still found it complicated then add comments or doubts <a href="#Comments">here</a>.
+</div>
+</div>
+
+<br><br>
+
+<div id="FC">
+<div class="container">
+	<p style="font-size:23px;color:black;">3) - Fully Connected Layers - FC</p><br>
+	<p style="font-size:15px; text-align:justify">
+	I'm, using Tensorflow and TFLearn, if you new to it or dont know how to install check this links : <a href="../../micro-posts/Installing%20Tensorflow/index.html">Installing tensorflow</a> and <a href="../../micro-posts/Tensorflow%20for%20GPU%20support/index.html">Tensorflow for GPU support</a>.
+	</p>
+	<br>
+	<br>
+	<p style="font-size:15px; text-align:justify">So let's import all the libraries we require for setup the network, i will explain the use of each as require.
+	</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">tflearn</span>
+<span class="kn">from</span> <span class="nn">tflearn.layers.estimator</span> <span class="k">import</span> <span class="n">regression</span>
+<span class="kn">from</span> <span class="nn">tflearn.layers.core</span> <span class="k">import</span> <span class="n">input_data</span><span class="p">,</span> <span class="n">dropout</span><span class="p">,</span> <span class="n">fully_connected</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	Now i will read the data of Gray scale images, which we had converted in Preprocessing section and i had saved in in a file.
+	The input should have to be in the form of array, each element should have to be in form of array, by fortune the <font color=black>reshape</font> functionality in python do this task very easily as shown below.
+	</p>
+</div>
+
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">unpickle</span><span class="p">(</span><span class="s2">&quot;cifar-10.gray.dataset&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;train_x&#39;</span><span class="p">]</span>
+<span class="n">train_y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;train_y&#39;</span><span class="p">])</span>
+<span class="n">test_x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;test_x&#39;</span><span class="p">]</span>
+<span class="n">test_y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;test_y&#39;</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_x</span> <span class="o">=</span> <span class="n">train_x</span><span class="o">.</span><span class="n">reshape</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">test_x</span> <span class="o">=</span> <span class="n">test_x</span><span class="o">.</span><span class="n">reshape</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	Here the reshape function is converting our array in N x 1024 x 1 form, which was in N x 1024 form, now each pixel value is itself an array, where "N" is number of training inputs in our case the number of images. 
+	<br><br>
+	 In [ -1,1024,1 ] - "-1" refers to unknown number as we don't need to know how many exact images we have, so it will read the array and put it automatically, in any reshape there should only be one time -1 is applicable else, it will become hasty for computer because multiple values might be possible.
+	 <br>
+	 <br>
+	 Now let's define parameters for network, <br>
+	 <b><font color=black>Learning Rate</font></b> : decides the speed on which the weights are going to be changed.<br>
+	 <b><font color=black>Model name</font></b> : It is not actually a algorithm parameter, but helps to find proper graphs when you visualize the learning in Tensor-board.
+	 </p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">LR</span> <span class="o">=</span> <span class="mf">1e-3</span>
+<span class="n">MODEL_NAME</span> <span class="o">=</span> <span class="s1">&#39;tt-</span><span class="si">{}</span><span class="s1">-</span><span class="si">{}</span><span class="s1">.model&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">LR</span><span class="p">,</span><span class="s1">&#39;5fc-image-classification&#39;</span><span class="p">)</span><span class="c1">#5conv-basic</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<br>
+<br>
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	Now, let's define our Network, <br>
+	on each run we have to wipe the data from temp, so that the graph will not clash with each another, so <font color=black>tf.reset_default_graph()</font> might work.<br>
+	
+	<br>
+	Creating a network using TFLearn is very easy, just follow some basic steps:
+	<br>
+	<ul><li>First you have to define the dimentions of input-layer and, like in example i'm calling the network FC</li>
+	<li>To add layer, you have to define a layer on network it self like <font color=black>"FC = fully_connected(FC, 512, activation='relu')" </font>this.</li>
+	<li><font color=black>"Relu"</font> - is a activation function, known as <font color=black>Rectifier Linear Unit</font>, Which will Keep positive but make zero to negative values 
+	<li> Another function known as <font color=black>softmax</font> : which generally used at last layer of neural network.</li>
+	<li>We have to define the optimizer for regression process, as discussed before, we are choosing Adam here.</li>
+	<li><font color=black>loss</font> : It is a measure to decide how much far away our answer is from actual value, as our measures are catagorical, we are choosing catagorical cross entropy to find error.</li>
+	</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tf</span><span class="o">.</span><span class="n">reset_default_graph</span><span class="p">()</span>
+<span class="n">FC</span> <span class="o">=</span> <span class="n">input_data</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;input&#39;</span><span class="p">)</span>
+
+<span class="n">FC</span> <span class="o">=</span> <span class="n">fully_connected</span><span class="p">(</span><span class="n">FC</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+
+<span class="n">FC</span> <span class="o">=</span> <span class="n">fully_connected</span><span class="p">(</span><span class="n">FC</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+
+<span class="n">FC</span> <span class="o">=</span> <span class="n">fully_connected</span><span class="p">(</span><span class="n">FC</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+
+<span class="n">FC</span> <span class="o">=</span> <span class="n">fully_connected</span><span class="p">(</span><span class="n">FC</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">FC</span> <span class="o">=</span> <span class="n">dropout</span><span class="p">(</span><span class="n">FC</span><span class="p">,</span> <span class="mf">0.85</span><span class="p">)</span>
+
+<span class="n">FC</span> <span class="o">=</span> <span class="n">fully_connected</span><span class="p">(</span><span class="n">FC</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;softmax&#39;</span><span class="p">)</span>
+<span class="n">FC</span> <span class="o">=</span> <span class="n">regression</span><span class="p">(</span><span class="n">FC</span><span class="p">,</span> <span class="n">optimizer</span><span class="o">=</span><span class="s1">&#39;adam&#39;</span><span class="p">,</span> <span class="n">learning_rate</span><span class="o">=</span><span class="n">LR</span><span class="p">,</span> <span class="n">loss</span><span class="o">=</span><span class="s1">&#39;categorical_crossentropy&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;targets&#39;</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">DNN</span><span class="p">(</span><span class="n">FC</span><span class="p">,</span> <span class="n">tensorboard_dir</span><span class="o">=</span><span class="s1">&#39;log&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<br>
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	Defining is done, so let's start training of our netwrok
+	</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">({</span><span class="s1">&#39;input&#39;</span><span class="p">:</span> <span class="n">train_x</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;targets&#39;</span><span class="p">:</span> <span class="n">train_y</span><span class="p">},</span> <span class="n">n_epoch</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">validation_set</span><span class="o">=</span><span class="p">({</span><span class="s1">&#39;input&#39;</span><span class="p">:</span> <span class="n">test_x</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;targets&#39;</span><span class="p">:</span> <span class="n">test_y</span><span class="p">}),</span> <span class="n">snapshot_step</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">show_metric</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">run_id</span><span class="o">=</span><span class="n">MODEL_NAME</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Training Step: 522  | total loss: <span class="ansi-green-intense-fg ansi-bold">2.30296</span> | time: 15.066s
+| Adam | epoch: 001 | loss: 2.30296 - acc: 0.0941 -- iter: 33408/50000
+</pre>
+</div>
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	<font color=black>Epoch</font> - is defined as iteration for learning, we train the entire network using all images and backpropogate error once, but once is not enough so epoch is defined as the number of iteartion for back propogation
+	<br>- We can also see the accuracy in output
+	<br>
+	<br>Let's run the same for more epochs, and compare the results.
+	</p>
+</div>
+
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">({</span><span class="s1">&#39;input&#39;</span><span class="p">:</span> <span class="n">train_x</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;targets&#39;</span><span class="p">:</span> <span class="n">train_y</span><span class="p">},</span> <span class="n">n_epoch</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">validation_set</span><span class="o">=</span><span class="p">({</span><span class="s1">&#39;input&#39;</span><span class="p">:</span> <span class="n">test_x</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;targets&#39;</span><span class="p">:</span> <span class="n">test_y</span><span class="p">}),</span> <span class="n">snapshot_step</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">show_metric</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">run_id</span><span class="o">=</span><span class="n">MODEL_NAME</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Training Step: 2345  | total loss: <span class="ansi-green-intense-fg ansi-bold">2.30263</span> | time: 18.974s
+| Adam | epoch: 003 | loss: 2.30263 - acc: 0.0894 -- iter: 49984/50000
+Training Step: 2346  | total loss: <span class="ansi-green-intense-fg ansi-bold">2.30253</span> | time: 20.691s
+| Adam | epoch: 003 | loss: 2.30253 - acc: 0.0930 | val_loss: 2.30266 - val_acc: 0.1016 -- iter: 50000/50000
+--
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	Oh!! GOD, You can actually see that the loss is actually decreasing and so accuracy should increase, but this showing adverse effects, how? - the thing is loss is defined as difference in probability, <br><br>- suppose you have 2 measures one is on required position and one is 5 units away. so total loss is 5 and accuracy is 0.5.<br>
+- Now cosider another senarion in which both are 2 units away, so loss is 4 but accuracy is 0.
+
+<br>
+It is still the topic of debate that which measure shoul be more important, according to me Loss has more stastical significance as compare to accuracy.
+<br>
+<br>
+
+Any way this netwrok is useless to us as it is almost random, because image data is more complicated then that of some linear functions. so we have to choose some more efficient networks, one of them is RNN. And don't forget you can always add comments at end for any queries.
+
+
+</p>
+</div>
+</div>
+
+
+
+<br>
+<br>
+<div id="RNN">
+<div class="container">
+	<p style="font-size:23px;color:black;">3) - Reccurent Neural Nets - RNN</p><br>
+	<p style="font-size:15px; text-align:justify">
+	I'm, using Tensorflow and TFLearn, if you new to it or dont know how to install check this links : <a href="../../micro-posts/Installing%20Tensorflow/index.html">Installing tensorflow</a> and <a href="../../micro-posts/Tensorflow%20for%20GPU%20support/index.html">Tensorflow for GPU support</a>.
+	</p>
+	<br>
+	<br>
+	<p style="font-size:15px; text-align:justify">
+	Ler's start with quick intro to RNN. What really important and we need to know is RNNs keeps the previous training set and add some part of it in current value, so output depends upon current training tuple as well as previous tuple.
+	</p>
+	<center><img src="RNN.jpg" width=60%></center>
+	<p style="font-size:15px; text-align:justify">
+	<br>
+	For example, suppose we are working to make a ChatBot, then the previous statement might give reasoning to produce the current statement. same thing we are going to apply on image. we have image size 32 x 32, we are going to devide the image in 16 parts, each of which contains 64 pixels, so network propogate 16 times and as you can see from image above the each 64 bits will use some part of previous 64-bits as well.
+	<br>
+	<br>
+	For our experiment, we are using special type of RNN networks, known as LSTM (Long Short term Memory). In RNN we can produce the current value based on some part of previous one, but what if we require some far away training tuple, like a tuple used 10 time units before or we don't have to use previous value for some perticular tuple, like same example in ChatBot , if we want to start a new topic of discussion we don't require past knowlegde, then what so this LSTM might be useful. If you curious about their working <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">this article</a> has very fine understanding.
+	
+	<br>
+	<br>
+	Let's rehape our data to 32 x 32, as RNN can handle 2D data.
+	</p>
+</div>
+
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_x</span> <span class="o">=</span> <span class="n">train_x</span><span class="o">.</span><span class="n">reshape</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">32</span><span class="p">])</span>
+<span class="n">test_x</span> <span class="o">=</span> <span class="n">test_x</span><span class="o">.</span><span class="n">reshape</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">32</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+Now let's define our network, and undertand parameter mpre briefly,
+<br><br><font color=black>- Model Name : </font>It is good practice to define a Model name else it will give some random ID to it and it will become harder to find your network in Tensorboard for visualization when there are too many networks in your log folder.
+<br><br>
+<font color=black>- Layer Name : </font>We do define name with our layers, it is to find them in Tensorboard visualization, as there are many layers it is good practice to give distinct name to important layers like imput layer and output layer
+</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">LR</span> <span class="o">=</span> <span class="mf">1e-3</span>
+<span class="n">MODEL_NAME</span> <span class="o">=</span> <span class="s1">&#39;tt-</span><span class="si">{}</span><span class="s1">-</span><span class="si">{}</span><span class="s1">.model&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">LR</span><span class="p">,</span><span class="s1">&#39;lstm-image-classification&#39;</span><span class="p">)</span><span class="c1">#5conv-basic</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tf</span><span class="o">.</span><span class="n">reset_default_graph</span><span class="p">()</span>
+<span class="n">RNN</span> <span class="o">=</span> <span class="n">input_data</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">32</span><span class="p">],</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;input&#39;</span><span class="p">)</span>
+
+<span class="n">RNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">lstm</span><span class="p">(</span><span class="n">RNN</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="n">return_seq</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">RNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">lstm</span><span class="p">(</span><span class="n">RNN</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+
+<span class="n">RNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">fully_connected</span><span class="p">(</span><span class="n">RNN</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;softmax&#39;</span><span class="p">)</span>
+<span class="n">RNN</span> <span class="o">=</span> <span class="n">dropout</span><span class="p">(</span><span class="n">RNN</span><span class="p">,</span> <span class="mf">0.90</span><span class="p">)</span>
+
+<span class="n">RNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">regression</span><span class="p">(</span><span class="n">RNN</span><span class="p">,</span> <span class="n">optimizer</span><span class="o">=</span><span class="s1">&#39;adam&#39;</span><span class="p">,</span> <span class="n">loss</span><span class="o">=</span><span class="s1">&#39;categorical_crossentropy&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;output&quot;</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">DNN</span><span class="p">(</span><span class="n">RNN</span><span class="p">,</span> <span class="n">tensorboard_verbose</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">({</span><span class="s1">&#39;input&#39;</span><span class="p">:</span> <span class="n">train_x</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;output&#39;</span><span class="p">:</span> <span class="n">train_y</span><span class="p">},</span> <span class="n">n_epoch</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">validation_set</span><span class="o">=</span><span class="p">({</span><span class="s1">&#39;input&#39;</span><span class="p">:</span> <span class="n">test_x</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;output&#39;</span><span class="p">:</span> <span class="n">test_y</span><span class="p">}),</span> <span class="n">snapshot_step</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">show_metric</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">run_id</span><span class="o">=</span><span class="n">MODEL_NAME</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<br>
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+Here we are defining "model = DNN..." = DNN means Deep Neural Networks.
+<br><br>
+Now let's start visualization of training with Tensorboard. Tensorboard provides graphs for all variables like loss and accuracy in the form of graph.
+<br><br>
+I'm using windows, so here is a technique to open tensorboard in windows, but you can search on google and find it for your relevent platforms, it's very easy just one statement.
+</p>
+</div>
+
+
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+tensorboard --logdir==training:/tmp/tflearn_logs --host=127.0.0.1
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+Now start training of network, and goto localhost:6006 or click <a href="http://localhost:6006">this link</a> to start your tensorboard. you will get results as below ...
+<br>
+<br>
+</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Training Step: 2345  | total loss: <span class="ansi-green-intense-fg ansi-bold">3.59377</span> | time: 167.065s
+| Adam | epoch: 003 | loss: 3.59377 - acc: 0.3425 -- iter: 49984/50000
+Training Step: 2346  | total loss: <span class="ansi-green-intense-fg ansi-bold">3.60363</span> | time: 170.930s
+| Adam | epoch: 003 | loss: 3.60363 - acc: 0.3427 | val_loss: 1.82484 - val_acc: 0.3324 -- iter: 50000/50000
+--
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+<div class="container">
+<p style="font-size:15px; text-align:justify">
+Accuracy Graph for training set : <br>
+<center><img src="RNN-Tensorboard-Accuracy.JPG" width=100%></center>
+Loss Graph for training set : <br>
+<center><img src="RNN-Tensorboard-Loss.JPG" width=100%></center>
+
+<br>
+There are many grapha to see as well, as you can see that the accuracy is increasing at lower rate but loss is still fluctuating, as i said before decrement of loss suggests the efficient network, so you can experiment wirh same network for more layers or more epochs may be.
+
+<br>
+<br>
+If you have any query or doubts just go below or click <a href="#Comments">here</a> and add comments. I will try my best.
+</p>
+</div>
+</div>
+<br><br>
+
+<div id="CNN">
+<div class="container">
+	<p style="font-size:23px;color:black;">4) - Convolution Neural Nets - CNN</p><br>
+	<p style="font-size:15px; text-align:justify">
+	I'm, using Tensorflow and TFLearn, if you new to it or dont know how to install check this links : <a href="../../micro-posts/Installing%20Tensorflow/index.html">Installing tensorflow</a> and <a href="../../micro-posts/Tensorflow%20for%20GPU%20support/index.html">Tensorflow for GPU support</a>.
+	
+	<br>	
+	<center><img src="CNN.jpg" width=100%></center>
+	<br>
+	Before starting let's take a quick look at Standard structure of Convolution Neural Network : 
+	<br>
+	<ul>
+		<li><font color=black>Input Layer :</font> Same as defined in experiment above</li>
+		<li><font color=black>Convolution Layer :</font> Convolution Layer act as the feature detecting layer, it is not fully connected but sparsely connected. We define the size of feature and number of features we need to detect from images.</li>
+		<li><font color=black>Pooling Layer :</font> Pooling can be described as Summariser, it will shrink the features to smaller sizes based on maximum value or average values.</li>
+		<li><font color=black>More Layers :</font> Combination of Convolution and Pooling</li>
+		<li><font color=black>Fully Connected Layers :</font> There should at least one fully connected layer at the end of convolution network, it will connect the all 2D features to 1D output layers and these are the layers where the logical decisions are taken based on findings of Convolution and pooling layers.</li>
+	</ul>
+	
+	<br>
+	So let's start with new model creation.
+	</p>
+	<br>
+	<br>
+	
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_x</span> <span class="o">=</span> <span class="n">train_x</span><span class="o">.</span><span class="n">reshape</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">test_x</span> <span class="o">=</span> <span class="n">test_x</span><span class="o">.</span><span class="n">reshape</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">LR</span> <span class="o">=</span> <span class="mf">1e-3</span>
+<span class="n">MODEL_NAME</span> <span class="o">=</span> <span class="s1">&#39;tt-</span><span class="si">{}</span><span class="s1">-</span><span class="si">{}</span><span class="s1">.model&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">LR</span><span class="p">,</span><span class="s1">&#39;6conv-4fc-basic&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tf</span><span class="o">.</span><span class="n">reset_default_graph</span><span class="p">()</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">input_data</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;input&#39;</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">conv_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">max_pool_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">conv_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">max_pool_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">conv_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">max_pool_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">conv_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">max_pool_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">conv_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">max_pool_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">conv_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">avg_pool_2d</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">fully_connected</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">fully_connected</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">fully_connected</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">fully_connected</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mf">0.85</span><span class="p">)</span>
+
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">fully_connected</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;softmax&#39;</span><span class="p">)</span>
+<span class="n">CNN</span> <span class="o">=</span> <span class="n">regression</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="n">optimizer</span><span class="o">=</span><span class="s1">&#39;adam&#39;</span><span class="p">,</span> <span class="n">learning_rate</span><span class="o">=</span><span class="n">LR</span><span class="p">,</span> <span class="n">loss</span><span class="o">=</span><span class="s1">&#39;categorical_crossentropy&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;targets&#39;</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">tflearn</span><span class="o">.</span><span class="n">DNN</span><span class="p">(</span><span class="n">CNN</span><span class="p">,</span> <span class="n">tensorboard_verbose</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+<br>
+<br>
+<div class="container">
+	
+	<p style="font-size:15px; text-align:justify">
+	<font color=black>Dropout : </font>This is the part, I hadn't covered yet, Dropout usually applies to fully connected layers, they ensures that model doesn't overfit, they randomly select some propotion of neurons, which will not take part in output.
+	<br>
+	<br>
+	So Let's train
+	</p>
+</div>
+
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">({</span><span class="s1">&#39;input&#39;</span><span class="p">:</span> <span class="n">train_x</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;targets&#39;</span><span class="p">:</span> <span class="n">train_y</span><span class="p">},</span> <span class="n">n_epoch</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">validation_set</span><span class="o">=</span><span class="p">({</span><span class="s1">&#39;input&#39;</span><span class="p">:</span> <span class="n">test_x</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;targets&#39;</span><span class="p">:</span> <span class="n">test_y</span><span class="p">}),</span> <span class="n">snapshot_step</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">show_metric</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">run_id</span><span class="o">=</span><span class="n">MODEL_NAME</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Training Step: 4814  | total loss: <span class="ansi-green-intense-fg ansi-bold">1.07527</span> | time: 95.126s
+| Adam | epoch: 007 | loss: 1.07527 - acc: 0.6441 -- iter: 07808/50000
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="container">
+	
+	<p style="font-size:15px; text-align:justify">
+	
+	Let's have look at graphs
+	<br>
+	<ul><li><font color=black>Orange : </font>Convolution Network</li><li><font color=black>Blue : </font>LSTM Network</li></ul>
+	<center><img src="CNN-RNN-Tensorboard-Accuracy.JPG" width=100%></center>
+	<center><img src="CNN-RNN-Tensorboard-Loss.JPG" width=100%></center>
+	<br>
+	Our CNN network beats the LSTM by very high value, but this results are till 3-epochs, and Accuracy is about 55%, and loss is quite less as compare to LSTM, which is very good thing.
+	
+	<br>
+	<br>
+	Sometimes for difficult tasks we have to train network even for longer time or for more epochs like I'm showing results for till 9-epochs and accuracy reached 69% and even further training get me through the accuracy of 89%.But still there is room for improvements. So Good Luck....
+	
+	<br><br>
+	Accuracy after 9th epoch
+	<br>
+	<table>
+	<tr><td><img src="CNN-Accuracy.JPG" width=80%></td><td><img src="CNN-Loss.JPG" width=80%></td></tr>
+	</table>
+	If you have any doubts just write it <a href="#Comments">here</a>.
+	
+	</p>
+</div>
+</div>
+<br><br>
+
+<div id="Results">
+<div class="container">
+	<p style="font-size:23px;color:black;">5) - Visualizing Outcomes</p><br>
+	<p style="font-size:15px; text-align:justify">
+	Let me tell you a very important thing, saving and loading the trained models, how it is useful ? - 
+	<br>	
+	<ul>
+		<li><font color=black>For future purpose :</font> After training network, you have to use it after long time</li>
+		<li><font color=black>To send model to someone :</font>To send the trained model to someone in mail.</li>
+		<li><font color=black>To check perfomance :</font> I prefer to first train model for only 3 epochs and then if the perfomace is sufficient then go further else drop it. or by this you can swith between different models.</li>
+	</ul>
+</div>
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">MODEL_NAME</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">MODEL_NAME</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+<br>
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	To visualize the test data, we need both the dataset, the one with Gray image for prediction and RGB images to visualize.
+	</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Image_Data</span> <span class="o">=</span> <span class="n">unpickle</span><span class="p">(</span><span class="s2">&quot;cifar-10.dataset&quot;</span><span class="p">)</span>
+<span class="n">Gray_Data</span>  <span class="o">=</span> <span class="n">unpickle</span><span class="p">(</span><span class="s2">&quot;cifar-10.gray.dataset&quot;</span><span class="p">)</span>
+<span class="n">Image_test_x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">Image_Data</span><span class="p">[</span><span class="s1">&#39;test_x&#39;</span><span class="p">])</span>
+<span class="n">Image_test_y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">Image_Data</span><span class="p">[</span><span class="s1">&#39;test_y&#39;</span><span class="p">])</span>
+<span class="n">Test_x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">Gray_Data</span><span class="p">[</span><span class="s1">&#39;test_x&#39;</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+<br><br>
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	Now let's define, a get_label function which can return label based on numerical value...
+	</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_label</span><span class="p">(</span><span class="n">ls</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+    <span class="n">ls</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ls</span><span class="p">)</span>
+    <span class="n">label_list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Aircraft&quot;</span><span class="p">,</span><span class="s2">&quot;Automotive&quot;</span><span class="p">,</span><span class="s2">&quot;Bird&quot;</span><span class="p">,</span><span class="s2">&quot;Cat&quot;</span><span class="p">,</span><span class="s2">&quot;Deer&quot;</span><span class="p">,</span><span class="s2">&quot;Dog&quot;</span><span class="p">,</span><span class="s2">&quot;Frog&quot;</span><span class="p">,</span><span class="s2">&quot;Horse&quot;</span><span class="p">,</span><span class="s2">&quot;Ship&quot;</span><span class="p">,</span><span class="s2">&quot;Truck&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">label_list</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">ls</span><span class="p">)]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	We also have to define make image funcion which can return us 32 x 32 x 3 array from 3072 values...
+	</p>
+</div>
+
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">makeimage</span><span class="p">(</span><span class="n">d1_array</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+    <span class="n">d3_array</span><span class="o">=</span><span class="p">[]</span>
+    <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">32</span><span class="p">:</span>
+        <span class="n">row</span><span class="o">=</span><span class="p">[]</span>
+        <span class="n">j</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">while</span> <span class="n">j</span><span class="o">&lt;</span><span class="mi">32</span><span class="p">:</span>
+            <span class="n">cell</span><span class="o">=</span><span class="p">[]</span>
+            <span class="n">k</span><span class="o">=</span><span class="mi">0</span>
+            <span class="k">while</span> <span class="n">k</span><span class="o">&lt;</span><span class="mi">3</span><span class="p">:</span>
+                <span class="n">cell</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">d1_array</span><span class="p">[</span><span class="n">k</span><span class="o">*</span><span class="mi">1024</span><span class="o">+</span><span class="n">i</span><span class="o">*</span><span class="mi">32</span><span class="o">+</span><span class="n">j</span><span class="p">])</span>
+                <span class="n">k</span><span class="o">+=</span><span class="mi">1</span>
+            <span class="n">row</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">cell</span><span class="p">))</span>
+            <span class="n">j</span><span class="o">+=</span><span class="mi">1</span>
+        <span class="n">d3_array</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">row</span><span class="p">))</span>
+        <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="n">d3_array</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">d3_array</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">d3_array</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="container">
+	<p style="font-size:15px; text-align:justify">
+	So now we have image, and the get_label function ready, but we have to predict the value of label for each image we have for testing...<br><br>
+	Now one by one we will give image data to model and predict the label and plot image to verify, to do that we have pass the data in form of array to <font color=black>model.predict(Input_Array)</font>,  and same as input it will return us array of predicted value, let's observe...
+	</p>
+</div>
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">image_counter</span><span class="o">=</span><span class="mi">0</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<span class="k">while</span> <span class="n">image_counter</span><span class="o">&lt;</span><span class="mi">45</span><span class="p">:</span>
+    
+    <span class="n">Image</span> <span class="o">=</span> <span class="n">makeimage</span><span class="p">(</span><span class="n">Image_test_x</span><span class="p">[</span><span class="n">image_counter</span><span class="p">])</span>
+        
+    <span class="n">Feed_Data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">Test_x</span><span class="p">[</span><span class="n">image_counter</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span><span class="mi">32</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+    <span class="n">model_out</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">([</span><span class="n">Feed_Data</span><span class="p">])[</span><span class="mi">0</span><span class="p">]</span>
+    
+    <span class="n">Predicted_Label</span> <span class="o">=</span> <span class="n">get_label</span><span class="p">(</span><span class="n">model_out</span><span class="p">)</span>
+    <span class="n">Actual_Label</span> <span class="o">=</span> <span class="n">get_label</span><span class="p">(</span><span class="n">Image_test_y</span><span class="p">[</span><span class="n">image_counter</span><span class="p">])</span>
+    
+    <span class="n">y</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="n">image_counter</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">y</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">Image</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">Predicted_Label</span><span class="p">)</span>
+    <span class="n">y</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">get_xaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">y</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">get_yaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">image_counter</span><span class="o">+=</span><span class="mi">1</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span> 
+    
+    
+</pre></div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+<center><img src="Output-Test.JPG" width=90%><center>
+	<p style="font-size:15px; text-align:justify">
+	
+	our model efficiency is 80% with training of 20 epochs, it can improve even further till 90% then it is almost stable, i'm considering training for 20 epochs and 80 % efficiency so stastically we have 2000 images which are predicted wrogly by our predictor, so let's see them.., some images are even that complicated that we even can't sure about any class..
+	</p>
+</div>
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">image_counter</span><span class="o">=</span><span class="mi">0</span>
+<span class="n">print_counter</span><span class="o">=</span><span class="mi">0</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<span class="k">while</span> <span class="n">print_counter</span><span class="o">&lt;</span><span class="mi">45</span><span class="p">:</span>
+    
+    <span class="n">Image</span> <span class="o">=</span> <span class="n">makeimage</span><span class="p">(</span><span class="n">Image_test_x</span><span class="p">[</span><span class="n">image_counter</span><span class="p">])</span>
+        
+    <span class="n">Feed_Data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">Test_x</span><span class="p">[</span><span class="n">image_counter</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span><span class="mi">32</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+    <span class="n">model_out</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">([</span><span class="n">Feed_Data</span><span class="p">])[</span><span class="mi">0</span><span class="p">]</span>
+    
+    <span class="n">Predicted_Label</span> <span class="o">=</span> <span class="n">get_label</span><span class="p">(</span><span class="n">model_out</span><span class="p">)</span>
+    <span class="n">Actual_Label</span> <span class="o">=</span> <span class="n">get_label</span><span class="p">(</span><span class="n">Image_test_y</span><span class="p">[</span><span class="n">image_counter</span><span class="p">])</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">Predicted_Label</span> <span class="o">!=</span> <span class="n">Actual_Label</span><span class="p">):</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="n">print_counter</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">Image</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">Actual_Label</span><span class="o">+</span><span class="s2">&quot;/&quot;</span><span class="o">+</span><span class="n">Predicted_Label</span><span class="p">)</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">get_xaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">get_yaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">print_counter</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="n">image_counter</span><span class="o">+=</span><span class="mi">1</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span> 
+    
+</pre></div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+</div>
+
+<div class="container">
+<center><img src="Output-Wrong.JPG" width=90%><center>
+	<p style="font-size:15px; text-align:justify">
+	Here first label shows the actual one and second is predicted by our model, You can see that image in third row and first column it is pretty hard to detect, and think that the algorithm is running on Gray scale images, plot the Gray scale image for the same and try to predict.. So i can say that model is kind of awesome, don't you think ??
+	</p>
+</div>
+
+
+</div>
+
+
+<br>
+<br>
+<div id="Conclusion">
+<div class="container">
+	<p style="font-size:23px;color:black;">Conclusion</p><br>
+	<p style="font-size:15px; text-align:justify">
+	<br>
+	As technology moving towards intelligence, this algorithm exist everywhere, especially talking about Image Classifation, Google is using it in search results, facebook using it for auto tagging, Security industries using it in surveillance, Trraffic police found it useful in number plate recognition. It had covered huge spectrum from daily needs to crime pacification. So there limitless possibilities.
+	<br><br>For image data, what I found is CNN are best ones, but still there is a huge room for improvements, there are other Neural network like Residual Nueral Networks and Network inside Network, which are also good choices. We can combine RNN and CNN in one network to get even good results. Try to make a model with uses the all 3 R,G and B parameter of images. I won't be able cover it all in single tutorial, but still for starters this is more that enough...
+	<br>
+	<br>
+	So feel free to add comments or suggestions because there is a huge room for improvements in this tutorials also and Wish you a very Happy Mining...
+	</p>
+	
+</div>
+<br>
+<br>
+	
+	
+<div id="Comments">
+<div class="container">
+	
+	<div id="disqus_thread"></div>
+	<script>
+
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	
+	var disqus_config = function () {
+	this.page.url = 'https://jay-chakalasiya.github.io/projects/Image%20Classification/index.html' // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = 'projectss/Image%20Classification'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://jay-chakalasiya.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+	
+</div>
+</div>
+
+<br>
+	
+	
+		<div class="fh5co-footer-style-3">
+			<div class="container">
+				<div class="row p-b">
+					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+						<img src="../../images/paperplane.png" alt="Paper Plane" class="image-align" /><br>
+						<p class="fh5co-copyright"><a href="#">Flying Pages </a> &copy; Sparrow Tech. <br> <br>Designed by <a>Jay Chakalasiya</a> <br> <br>
+							Image Credits: <a target="_blank" href="http://unsplash.com/">Unsplash</a>, <a target="_blank" href="http://pexels.com/">Pexels</a></p>
+					</div>
+					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+						<h3>Careers</h3>
+						<ul class="fh5co-links">
+							<li><a>Inphy Corp.</a></li>
+
+						</ul>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
+						<h3>Connect</h3>
+						<ul class="fh5co-links fh5co-social">
+							<li><a href="https://www.facebook.com/jay.chakalasiya"><i class="icon icon-facebook2"></i> Facebook</a></li>
+							<li><a href="https://twitter.com/JayChakalasiya"><i class="icon icon-twitter"></i> Twitter</a></li>
+							<li><a href="https://www.linkedin.com/in/jay-chakalasiya-a3371b115/"><i class="icon icon-linkedin"></i> Linked-In</a></li>
+							<li><a href="https://github.com/jay-chakalasiya"><i class="icon icon-github"></i> Github</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
+						<h3>About</h3>
+						<p>by Jay Chakalasiya</p>
+						<p><a href="http://www.jaychakalasiya.com" class="btn btn-success btn-sm btn-outline">About Me</a></p>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+				</div>
+				<div class="row fh5co-made">
+					<div class="col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+						<p>Made with <i class="heart icon-heart"></i> in India</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- END footer -->
+
+	</div>
+	<!-- END page-->
+
+
+	<script src="../../js/jquery.min.js"></script>
+
+	<script src="../../js/jquery.easing.1.3.js"></script>
+
+	<script src="../../js/bootstrap.min.js"></script>
+
+   <script src="../../js/jquery.waypoints.min.js"></script>
+
+	<script src="../../js/owl.carousel.min.js"></script>
+
+	<script src="../../js/jquery.magnific-popup.min.js"></script>
+
+	<script src="../../js/jquery.stellar.min.js"></script>
+
+	<script src="../../js/jquery.countTo.js"></script>
+
+	<script src="../../js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<script src="../../js/main.js"></script>
+
+
+	</body>
+</html>
