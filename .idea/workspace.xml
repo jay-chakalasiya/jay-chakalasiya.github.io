@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_data/authors.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2016-07-20-writing-jekyll-posts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_temp/samples/minimal-mistakes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sample.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/ui-text.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/ui-text.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-20-writing-jekyll-posts.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-07-20-writing-jekyll-posts.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605314720274</updated>
-      <workItem from="1605314722585" duration="3984000" />
+      <workItem from="1605314722585" duration="7589000" />
     </task>
     <task id="LOCAL-00001" summary="added new theme">
       <created>1605315767590</created>
@@ -89,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605316274351</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Some basic changes">
+      <created>1605318866215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605318866215</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +112,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added new theme" />
     <MESSAGE value="Initiated Jekyll theme - Minimal Mistakes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initiated Jekyll theme - Minimal Mistakes" />
+    <MESSAGE value="Some basic changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some basic changes" />
   </component>
   <component name="WindowStateProjectService">
     <state width="2171" height="332" key="GridCell.Tab.0.bottom" timestamp="1605318432350">
@@ -129,9 +132,9 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state width="2171" height="332" key="GridCell.Tab.0.right/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605318432350" />
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605316296476">
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605318871977">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605316296476" />
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605318871977" />
   </component>
 </project>
