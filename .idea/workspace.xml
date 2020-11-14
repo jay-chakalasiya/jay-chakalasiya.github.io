@@ -20,91 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/References.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/authors.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2016-07-20-writing-jekyll-posts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_temp/samples/minimal-mistakes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sample.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/adsense-under-header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/disqus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/featuredbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/postbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/search-lunr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/share.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/star_rating.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/star_rating_postbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_includes/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_layouts/archive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_layouts/categories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_layouts/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_layouts/page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_layouts/post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_layouts/tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_pages/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_pages/categories.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_pages/tags.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-11-customer-service.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-11-quick-start-guide.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-12-is-intelligence-enough.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-12-never-stopped-worrying-never-loved-bomb.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-12-options-for-creating-new-site-with-jekyll.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-12-press-and-education.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-12-red-riding.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-12-tree-of-codes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-01-12-we-all-wait-for-summer.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-05-12-about-bundler.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-06-12-acumulated-experience.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-06-12-education.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-06-12-first-mass-produced.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_posts/2018-06-12-powerful-things-markdown-editor.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_sass/_stars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_sass/_starsnonscss.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/_sass/_syntax.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/css/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/css/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/fonts/casper-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/fonts/casper-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/fonts/casper-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/fonts/casper-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/jumbotron.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/images/mediumish-jekyll-template.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/js/lazyload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/js/lunr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/js/lunrsearchengine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/assets/js/mediumish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/feed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_temp/mediumish-theme-jekyll/site/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/ui-text.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/ui-text.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +39,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1kG6jkRiAlDu5hkTXwdQ5fAcXBM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -136,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605314720274</updated>
-      <workItem from="1605314722585" duration="1520000" />
+      <workItem from="1605314722585" duration="3984000" />
     </task>
     <task id="LOCAL-00001" summary="added new theme">
       <created>1605315767590</created>
@@ -152,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605315917931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initiated Jekyll theme - Minimal Mistakes">
+      <created>1605316274351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605316274351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,13 +107,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added new theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new theme" />
+    <MESSAGE value="Initiated Jekyll theme - Minimal Mistakes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initiated Jekyll theme - Minimal Mistakes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605316057552">
+    <state width="2171" height="332" key="GridCell.Tab.0.bottom" timestamp="1605318432350">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605316057552" />
+    <state width="2171" height="332" key="GridCell.Tab.0.bottom/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605318432350" />
+    <state width="2171" height="332" key="GridCell.Tab.0.center" timestamp="1605318432350">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2171" height="332" key="GridCell.Tab.0.center/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605318432350" />
+    <state width="2171" height="332" key="GridCell.Tab.0.left" timestamp="1605318432349">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2171" height="332" key="GridCell.Tab.0.left/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605318432349" />
+    <state width="2171" height="332" key="GridCell.Tab.0.right" timestamp="1605318432350">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2171" height="332" key="GridCell.Tab.0.right/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605318432350" />
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605316296476">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605316296476" />
   </component>
 </project>
