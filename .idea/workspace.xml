@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/archive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/Jupyter/Ansi.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/Jupyter/Highlight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/Jupyter/Notebook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/Jupyter/Override.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/cards.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/myOwnContent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/preset/preset1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/preset/preset2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/preset/preset3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/preset/preset4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/preset/preset5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/preset/preset6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/future-works/Auto Bounding Boxes/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/future-works/Auto Tag Generator/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/future-works/SAM/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/future-works/Text Summariser/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/future-works/Text Summarizer/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/Background1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/full_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/full_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/full_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/img_same_dimension_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/img_same_dimension_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/img_same_dimension_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/img_same_dimension_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/paperplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/person_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/images/person_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.countTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.inview.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.style.switcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/lightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/mousescroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/smoothscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/Basic Structure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/Example/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/Example/ActivationF1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/Example/feature1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/Example/feature2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/Example/feature3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/ImageNet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/Network structure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/image.header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Deep Learning 3 - CNN/pascal.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Getting started with Jupyter/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Handling the Image data/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Installing Tensorflow/image.header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Installing Tensorflow/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Installing Tensorflow/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Introduction to Pandas/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Tensorflow for GPU support/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Use of Pickle/image.header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Use of Pickle/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/micro-posts/Use of Pickle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Catagorization of news clippings/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Financial Market Forecasting/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Hand Written Digit Recognition/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/ANN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/CNN-Accuracy.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/CNN-Loss.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/CNN-RNN-Tensorboard-Accuracy.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/CNN-RNN-Tensorboard-Loss.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/CNN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/Classes.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/Gradient_Descent.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/Intro-Neural_Cell.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/Output-Test.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/Output-Wrong.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/RNN-Tensorboard-Accuracy.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/RNN-Tensorboard-Loss.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/RNN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/class-labels.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/image.header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/image.title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/projects/Image Classification/plane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/resume.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kG6jkRiAlDu5hkTXwdQ5fAcXBM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="" />
+      <created>1605314720274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605314720274</updated>
+      <workItem from="1605314722585" duration="987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
