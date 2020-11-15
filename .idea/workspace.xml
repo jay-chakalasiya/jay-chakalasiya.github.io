@@ -20,10 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_includes/base_path" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/404.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/posts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/projects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/tags_archive.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/new-file.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-greenearth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/authors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/authors.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/ui-text.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/ui-text.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer/custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer/custom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-07-20-writing-jekyll-posts.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-07-20-writing-jekyll-posts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/skins/_contrast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/skins/_contrast.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_temp/minimal-mistakes" beforeDir="false" afterPath="$PROJECT_DIR$/_temp/minimal-mistakes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_temp/samples/minimal-mistakes" beforeDir="false" afterPath="$PROJECT_DIR$/_temp/samples/minimal-mistakes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sample.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sample.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +70,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_temp/samples/minimal-mistakes" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Independent Projects\jay-chakalasiya.github.io\_includes" />
+      <recent name="D:\Projects\Independent Projects\jay-chakalasiya.github.io\assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605314720274</updated>
-      <workItem from="1605314722585" duration="7589000" />
+      <workItem from="1605314722585" duration="24410000" />
     </task>
     <task id="LOCAL-00001" summary="added new theme">
       <created>1605315767590</created>
@@ -91,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605318866215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Tut file for the images and code snippets for the md posts">
+      <created>1605385088360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605385088360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,9 +149,22 @@
     <MESSAGE value="added new theme" />
     <MESSAGE value="Initiated Jekyll theme - Minimal Mistakes" />
     <MESSAGE value="Some basic changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some basic changes" />
+    <MESSAGE value="Added Tut file for the images and code snippets for the md posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Tut file for the images and code snippets for the md posts" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="298" y="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605404771437">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="298" y="401" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605404771437" />
+    <state x="844" y="443" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605412901260">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="844" y="443" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605412901260" />
+    <state x="730" y="404" key="FileChooserDialogImpl" timestamp="1605403090787">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="730" y="404" key="FileChooserDialogImpl/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605403090787" />
     <state width="2171" height="332" key="GridCell.Tab.0.bottom" timestamp="1605318432350">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -132,9 +181,13 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state width="2171" height="332" key="GridCell.Tab.0.right/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605318432350" />
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605318871977">
+    <state x="605" y="241" key="SettingsEditor" timestamp="1605413176821">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605318871977" />
+    <state x="605" y="241" key="SettingsEditor/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605413176821" />
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605385094903">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605385094903" />
   </component>
 </project>
