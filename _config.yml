@@ -96,7 +96,7 @@ author:
   name             : *name
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "What is **life** without **death**?"
-  location         : "Bellevue, WA"
+  location         : #"WA, USA"
   email            :
   links:
     - label: "Email"
@@ -105,18 +105,19 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: &website "https://jaychakalasiya.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jay-chakalasiya"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url:  "https://www.linkedin.com/in/jay-chakalasiya/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url : &twitter "https://twitter.com/JayChakalasiya"
     #- label: "Facebook"
      # icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jay-chakalasiya"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/jaychakalasiya/"
+
 
 # Site Footer
 footer:
@@ -241,10 +242,10 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /posts-categories/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /posts-tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -270,6 +271,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path
+  blog:
+    output: true
+    permalink: /:collection/:path
 
 
 # Defaults
@@ -290,6 +294,7 @@ defaults:
       show_date: true
 
       search: true
+      breadcrumbs : false
 
       toc:  true
       toc_label:  "Table of Contents"
@@ -305,13 +310,14 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: splash
-      author_profile: true
+      layout: single
+      #classes:  wide
+      author_profile: false
 
-      read_time: true
+      read_time: false
       comments: # true
       share: true
-      related: true
+      related: false
       show_date: true
 
       search: true

@@ -4,19 +4,27 @@ layout: archive
 
 {{ content }}
 
+{% include base_path %}
+
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+{% assign posts = paginator.posts %}
 {% else %}
-  {% assign posts = site.posts %}
+{% assign posts = site.posts %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
+    {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+    {% endfor %}
 </div>
 
 {% include paginator.html %}
+<div style="height: 100px"></div>
+<h3 class="archive__subtitle">Group By</h3>
+<ul class="taxonomy__index">
+    <li><a href="/posts-tags/"><strong>Posts by Tags</strong></a></li>
+    <li><a href="/posts-categories/"><strong>Posts by Categories</strong></a></li>
+</ul>

@@ -23,3 +23,12 @@ collection: projects
 
 
 {% include paginator.html %}
+
+<br>
+
+<h3 class="archive__subtitle">Group By</h3>
+<ul class="taxonomy__index">
+    <li><a href="/projects-tags/"><strong>Posts by Tags</strong></a></li>
+    <li><a href="/projects-categories/"><strong>Posts by Categories</strong></a></li>
+</ul>
+
