@@ -294,9 +294,9 @@ defaults:
       show_date: true
 
       search: true
-      breadcrumbs : false
 
       toc:  true
+      toc_sticky: true
       toc_label:  "Table of Contents"
       toc_icon: "fas fa-scroll"
 
@@ -305,6 +305,12 @@ defaults:
         overlay_filter: "0.5"
         overlay_image: /assets/images/sample.jpg
       excerpt: "Please Add a Good Excerpt Here"
+
+      title:
+      tags:
+      categories:
+
+
 
   - scope:
       path: ""
@@ -323,6 +329,7 @@ defaults:
       search: true
 
       toc: true
+      toc_sticky: true
       toc_label: "Table of Contents"
       toc_icon: "fas fa-scroll"
 

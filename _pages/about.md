@@ -36,8 +36,8 @@ The theme includes responsive layouts (`single`, `archive`, and `splash` pages) 
 
 
 
-[random-post]: {{ base_path }}{% post_url 2016-07-20-writing-jekyll-posts %}
-[image-tag]: {{ base_path }}{% post_url 2013-08-16-markup-syntax-highlighting%}
+[random-post]: {{ base_path }}{% post_url 2020-11-16-How-to-Use-Jekyll-Posts %}
+[image-tag]: {{ base_path }}{% post_url 2020-11-16-How-to-Use-Jekyll-Posts %}
 
 
 ---
