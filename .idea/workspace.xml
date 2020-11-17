@@ -20,20 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-11-16-How-to-Use-Jekyll-Posts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/small-image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/References.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/ui-text.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/ui-text.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-07-20-writing-jekyll-posts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-01-01-trial1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-02-02-trial2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-03-03-trial3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-04-04-trial4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-11-16-How-to-Use-Jekyll-Posts.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-11-16-How-to-Use-Jekyll-Posts.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_temp/samples/minimal-mistakes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Old-github blog/_temp/samples/minimal-mistakes" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -83,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605314720274</updated>
       <workItem from="1605314722585" duration="42842000" />
-      <workItem from="1605488421361" duration="14978000" />
+      <workItem from="1605488421361" duration="20806000" />
     </task>
     <task id="LOCAL-00001" summary="added new theme">
       <created>1605315767590</created>
@@ -141,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605488555500</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Post to learn the Jekyll Markdowns">
+      <created>1605518206788</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605518206789</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +167,8 @@
     <MESSAGE value="Added Projects and Tags page" />
     <MESSAGE value="Added Google Search" />
     <MESSAGE value="Tag and Category pages with navigational links,&#10;&#10;Added LinkedIn&#10;&#10;Only blog page pagination is working&#10;&#10;TODO: Explore paginate v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag and Category pages with navigational links,&#10;&#10;Added LinkedIn&#10;&#10;Only blog page pagination is working&#10;&#10;TODO: Explore paginate v2" />
+    <MESSAGE value="Added Post to learn the Jekyll Markdowns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Post to learn the Jekyll Markdowns" />
   </component>
   <component name="WindowStateProjectService">
     <state x="298" y="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605486106727">
@@ -179,10 +179,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="844" y="443" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605470382444" />
-    <state x="730" y="404" key="FileChooserDialogImpl" timestamp="1605403090787">
+    <state x="730" y="404" key="FileChooserDialogImpl" timestamp="1605568727127">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="730" y="404" key="FileChooserDialogImpl/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605403090787" />
+    <state x="730" y="404" key="FileChooserDialogImpl/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605568727127" />
     <state width="2171" height="332" key="GridCell.Tab.0.bottom" timestamp="1605487157611">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -203,10 +203,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="605" y="241" key="SettingsEditor/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605507433428" />
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605488558979">
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605518265445">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605488558979" />
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605518265445" />
     <state x="201" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1605506926318">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
