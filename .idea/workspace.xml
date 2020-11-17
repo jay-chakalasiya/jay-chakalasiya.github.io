@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -60,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Independent Projects\jay-chakalasiya.github.io\_base_code_licenses" />
       <recent name="D:\Projects\Independent Projects\jay-chakalasiya.github.io\_includes" />
       <recent name="D:\Projects\Independent Projects\jay-chakalasiya.github.io\assets" />
     </key>
@@ -74,7 +73,7 @@
       <updated>1605314720274</updated>
       <workItem from="1605314722585" duration="42842000" />
       <workItem from="1605488421361" duration="20942000" />
-      <workItem from="1605572516415" duration="4739000" />
+      <workItem from="1605572516415" duration="6153000" />
     </task>
     <task id="LOCAL-00001" summary="added new theme">
       <created>1605315767590</created>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605572208899</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Changed the license directory and added file structure file">
+      <created>1605592260015</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605592260015</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +186,8 @@
     <MESSAGE value="Tag and Category pages with navigational links,&#10;&#10;Added LinkedIn&#10;&#10;Only blog page pagination is working&#10;&#10;TODO: Explore paginate v2" />
     <MESSAGE value="Added Post to learn the Jekyll Markdowns" />
     <MESSAGE value="Ready to ship documentation &#10;&#10;Added TODO&#10;&#10;Removed some some redundant code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready to ship documentation &#10;&#10;Added TODO&#10;&#10;Removed some some redundant code" />
+    <MESSAGE value="Changed the license directory and added file structure file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the license directory and added file structure file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="298" y="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605486106727">
@@ -215,10 +222,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="605" y="241" key="SettingsEditor/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605586281480" />
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605572235693">
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605592265504">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605572235693" />
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605592265504" />
     <state x="201" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1605506926318">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
