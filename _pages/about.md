@@ -1,6 +1,6 @@
 ---
 layout: single
-author_profile: true
+author_profile: false
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "fas fa-scroll"
@@ -22,6 +22,6 @@ Currently, I'm pursuing graduation at  **`University of Washington, USA`**  and 
 I maintain this blog to share my thoughts and learnings. Apart from sharing this also helps me to take a step back and see how far I have come?
 
 
-[<i class="fab fa-linkedin-in"></i> - LinkedIn](https://www.linkedin.com/in/jay-chakalasiya/){: .btn .btn--info .btn--large} I'm always looking forward to expand my professional network ...
+[<i class="fab fa-linkedin-in"></i> - LinkedIn](https://www.linkedin.com/in/jay-chakalasiya/){: .btn .btn--info .btn--large} I'm always looking forward to expand my professional network ....
 
 
