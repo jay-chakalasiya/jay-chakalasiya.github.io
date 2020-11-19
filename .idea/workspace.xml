@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/images/defaults/default-header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/defaults/default-header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/defaults/default-teaser.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/defaults/default-teaser.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <updated>1605314720274</updated>
       <workItem from="1605314722585" duration="42842000" />
       <workItem from="1605488421361" duration="20942000" />
-      <workItem from="1605572516415" duration="17591000" />
+      <workItem from="1605572516415" duration="17974000" />
     </task>
     <task id="LOCAL-00001" summary="added new theme">
       <created>1605315767590</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605774304241</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Reduced Image Sizes">
+      <created>1605774960464</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605774960464</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +218,8 @@
     <MESSAGE value="Added README.md file with attributions" />
     <MESSAGE value="Added License" />
     <MESSAGE value="Updated About page, Added Internal linking to Jekyll Post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated About page, Added Internal linking to Jekyll Post" />
+    <MESSAGE value="Reduced Image Sizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reduced Image Sizes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="298" y="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605593490775">
@@ -246,10 +254,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="605" y="241" key="SettingsEditor/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605586281480" />
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605774309637">
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605774964611">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605774309637" />
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605774964611" />
     <state x="201" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1605506926318">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
