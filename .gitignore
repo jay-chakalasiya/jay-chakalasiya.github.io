@@ -2,7 +2,8 @@
 *~
 *.sw[p_]
 
-".idea"
+.idea/
+idea
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
