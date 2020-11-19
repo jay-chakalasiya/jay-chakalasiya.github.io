@@ -20,7 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f8f933-274c-4b50-ab31-021c4a102474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/masthead-updated.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/small-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/defaults/default-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/defaults/default-teaser.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/logo-earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/logo-greenearth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/masthead.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/masthead.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-11-16-How-to-Use-Jekyll-Posts.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-11-16-How-to-Use-Jekyll-Posts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/five.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/four.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/one.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/three.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/two.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_masthead.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-greenearth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/sample.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/small-image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +97,7 @@
       <updated>1605314720274</updated>
       <workItem from="1605314722585" duration="42842000" />
       <workItem from="1605488421361" duration="20942000" />
-      <workItem from="1605572516415" duration="6304000" />
+      <workItem from="1605572516415" duration="17187000" />
     </task>
     <task id="LOCAL-00001" summary="added new theme">
       <created>1605315767590</created>
@@ -158,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605593371063</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added License">
+      <created>1605593518841</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605593518841</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +226,8 @@
     <MESSAGE value="Ready to ship documentation &#10;&#10;Added TODO&#10;&#10;Removed some some redundant code" />
     <MESSAGE value="Changed the license directory and added file structure file" />
     <MESSAGE value="Added README.md file with attributions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added README.md file with attributions" />
+    <MESSAGE value="Added License" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added License" />
   </component>
   <component name="WindowStateProjectService">
     <state x="298" y="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605593490775">
@@ -229,10 +262,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="605" y="241" key="SettingsEditor/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605586281480" />
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605593374476">
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605593522571">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605593374476" />
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605593522571" />
     <state x="201" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1605506926318">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>

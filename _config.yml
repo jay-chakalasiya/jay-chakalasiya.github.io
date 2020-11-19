@@ -24,8 +24,8 @@ description              : "Personal Thinkspace for the Ideas"
 url                      : "https://jay-chakalasiya.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jay-chakalasiya/jay-chakalasiya.github.io"
-teaser                   : "/assets/images/sample.jpg"
-logo                     : "/assets/images/logo-greenearth.png"
+teaser                   : "/assets/images/defaults/default-teaser.jpg"
+logo                     : "/assets/images/logos/logo-greenearth.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -301,8 +301,8 @@ defaults:
       toc_icon: "fas fa-scroll"
 
       header:
-        overlay_filter: "0.5"
-        overlay_image: /assets/images/sample.jpg
+        overlay_filter: "0.9"
+        overlay_image: /assets/images/defaults/default-header.jpg
       excerpt: "Please Add a Good Excerpt Here"
 
       title:
@@ -333,8 +333,8 @@ defaults:
       toc_icon: "fas fa-scroll"
 
       header:
-        overlay_filter: "0.5"
-        overlay_image: /assets/images/sample.jpg
+        overlay_filter: "0.9"
+        overlay_image: /assets/images/defaults/default-header.jpg
 
       excerpt: "Please Add a Good Excerpt Here"
 

@@ -5,6 +5,9 @@ excerpt: "The usage of markdown in jekyll posts with code examples"
 excerpt_separator: "<!--more-->"
 modified: 2016-09-09T09:55:10-04:00
 
+header:
+    overlay_filter: "0.8"
+
 tags: 
   - Jekyll
   - Markdown
@@ -30,7 +33,7 @@ tags:
   toc_icon: "fas fa-scroll"
 
   header:
-    overlay_image: /assets/images/sample.jpg
+    overlay_image:/assets/images/defaults/default-header.jpg
     caption:  "Photo credits"
     overlay_filter: "0.5" # by default black; can also use colors like: rgba(255, 0, 0, 0.5)
     actions:    # to create a button in the overaly, (may be to point to code repo or reference)
@@ -169,36 +172,48 @@ Ignore the `\` symbol, Other laguages are also supported like ruby, java, c, mar
 GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
 
 
+## GitHub Gist Embed
+
+```html
+{% raw %}{% gist jay-chakalasiya/1400a5264cfcc394efae3130542d23dd %}{% endraw %}
+
+<script src="https://gist.github.com/jay-chakalasiya/1400a5264cfcc394efae3130542d23dd.js"></script>
+```
+{% gist jay-chakalasiya/1400a5264cfcc394efae3130542d23dd %}
+
+<script src="https://gist.github.com/jay-chakalasiya/1400a5264cfcc394efae3130542d23dd.js"></script>
+
+
 ## Images
 ```markdown
-![Some Image](/assets/images/sample.jpg)
+![Some Image](/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/sample.jpg)
 ```
-![Some Image](/assets/images/sample.jpg)
+![Some Image](/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/sample.jpg)
 
 ```markdown
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sample.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/sample.jpg" alt="">
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sample.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/sample.jpg" alt="">
 
 ## Image Alignments
 ```markdown
-![left-aligned-image](/assets/images/small-image.png){: .align-left}    
+![left-aligned-image](/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/small-image.png){: .align-left}    
 The written after the image will take up the right space left in the rendering.
 ``` 
 <center>or</center>     
 ```html
-<img src="/assets/images/small-image.png" class="align-left" alt="">    
+<img src="/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/small-image.png" class="align-left" alt="">    
 The written after the image will take up the right space left in the rendering.
 ``` 
-![left-aligned-image](/assets/images/small-image.png){: .align-left}    
+![left-aligned-image](/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/small-image.png){: .align-left}    
 The written after the image will take up the right space left in the rendering.
 
 Just make sure that image is squarish & small enough to give some writing space on the right side, else it might take up whole space
 
 Other options   
 ```markdown
-![center-aligned-image](/assets/images/small-image.png){: .align-center}
-![right-aligned-image](/assets/images/small-image.png){: .align-right}
+![center-aligned-image](/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/small-image.png){: .align-center}
+![right-aligned-image](/assets/images/2020-11-16-How-to-Use-Jekyll-Posts/small-image.png){: .align-right}
 ``` 
 Html code can also be used juse replace `align-left` with `align-center` & `align-right` in the provided html code above. 
 
@@ -239,6 +254,15 @@ You are at [jay-chakalasiya.github.io](https://jay-chakalasiya.github.io "The be
 ```
 You are at [jay-chakalasiya.github.io](https://jay-chakalasiya.github.io "The best github blog").
 
+### Internal Content Links
+```markdown
+{% raw %}[Random Post][random-post]
+[random-post]: {{ base_path }}{% post_url 2020-11-16-How-to-Use-Jekyll-Posts %} {% endraw %}
+```
+[Random Post][random-post]
+
+[random-post]: {{ base_path }}{% post_url 2020-11-16-How-to-Use-Jekyll-Posts %}
+
 ### URLs & Email Addresses
 ```markdown
 <https://jay-chakalasiya.github.io>
@@ -246,6 +270,8 @@ You are at [jay-chakalasiya.github.io](https://jay-chakalasiya.github.io "The be
 ```
 <https://jay-chakalasiya.github.io>     
 <sample@gmail.com>
+
+
 
 
 
@@ -371,23 +397,10 @@ Wrap them into capture elemets
 </div>
 
 
-
-
-
-
-
-
-## GitHub Gist Embed
-
-```html
-{% raw %}{% gist jay-chakalasiya/1400a5264cfcc394efae3130542d23dd %}{% endraw %}
-
-<script src="https://gist.github.com/jay-chakalasiya/1400a5264cfcc394efae3130542d23dd.js"></script>
+## File Structrue Tree
+```bash
+    tree /a /f > output.txt
 ```
-{% gist jay-chakalasiya/1400a5264cfcc394efae3130542d23dd %}
-
-<script src="https://gist.github.com/jay-chakalasiya/1400a5264cfcc394efae3130542d23dd.js"></script>
-
 
 ## References
 All the referecnes attached above will be visible at the end of the document.
