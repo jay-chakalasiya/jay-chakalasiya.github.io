@@ -73,7 +73,7 @@
       <updated>1605314720274</updated>
       <workItem from="1605314722585" duration="42842000" />
       <workItem from="1605488421361" duration="20942000" />
-      <workItem from="1605572516415" duration="17974000" />
+      <workItem from="1605572516415" duration="18155000" />
     </task>
     <task id="LOCAL-00001" summary="added new theme">
       <created>1605315767590</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605774960464</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Removed .idea folder">
+      <created>1605775049743</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605775049743</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +226,8 @@
     <MESSAGE value="Added License" />
     <MESSAGE value="Updated About page, Added Internal linking to Jekyll Post" />
     <MESSAGE value="Reduced Image Sizes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reduced Image Sizes" />
+    <MESSAGE value="Removed .idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed .idea folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="298" y="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605593490775">
@@ -254,10 +262,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="605" y="241" key="SettingsEditor/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605586281480" />
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605774964611">
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2" timestamp="1605775074695">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605774964611" />
+    <state x="689" y="327" key="Vcs.Push.Dialog.v2/3840.0.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1605775074695" />
     <state x="201" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1605506926318">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
