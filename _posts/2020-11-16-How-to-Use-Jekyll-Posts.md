@@ -14,7 +14,7 @@ tags:
   - Tutorial
   
 categories:
-  - Web-Dev 
+  - Web Dev 
 ---
 ## Front Matter
 ```yaml
