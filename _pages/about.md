@@ -29,7 +29,7 @@ I maintain this blog to share my thoughts and learnings. Apart from sharing this
 {% capture open-to-work %}
 <strong style="color:#2E6930">I'm actively looking for a job/internship in Data Science or Machine Learning</strong>. If you see my skillset match for a job, please give me a shout at **<chakalasiyajay00@gmail.com>**.
 
-[Resume](/resume/){: .btn .btn--success .btn--large}
+[Resume](https://jay-chakalasiya.github.io/digital-resume/){: .btn .btn--success .btn--large}
 {% endcapture %}
 
 <div class="notice--info">{{ open-to-work | markdownify }}</div>

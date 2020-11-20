@@ -112,7 +112,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url : &twitter "https://twitter.com/JayChakalasiya"
     - label: "Resume"
-      url : "/resume/"
+      url : "https://jay-chakalasiya.github.io/digital-resume/"
     #- label: "Facebook"
      # icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
