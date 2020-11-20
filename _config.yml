@@ -18,14 +18,14 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "default", "d
 locale                   : "en-US"
 title                    : &name "Jay Chakalasiya"
 title_separator          : "|"
-subtitle                 : "Thnkspc for starshots"# site tagline that appears below site title in masthead""
+subtitle                 : "Just Another Earthling"# site tagline that appears below site title in masthead""
 name                     : "Jay Chakalasiya"
 description              : "Personal Thinkspace for the Ideas"
 url                      : "https://jay-chakalasiya.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jay-chakalasiya/jay-chakalasiya.github.io"
 teaser                   : "/assets/images/defaults/default-teaser.jpg"
-logo                     : "/assets/images/logos/logo-greenearth.png"
+logo                     : "/assets/images/logos/earth.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : *name
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "What is **life** without **death**?"
+  bio              : "_A curious soul with love for **science** and appetite for **fun**_"
   location         : #"WA, USA"
   email            :
   links:

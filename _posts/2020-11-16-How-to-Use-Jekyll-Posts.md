@@ -12,6 +12,9 @@ tags:
   - Jekyll
   - Markdown
   - Tutorial
+  
+categories:
+  - Web-Dev 
 ---
 ## Front Matter
 ```yaml

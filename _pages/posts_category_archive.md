@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /posts-categories/
-title: "Posts by Category"
+permalink: /post-collections/
+title: "Posts by Collections"
 author_profile: false
 ---
 

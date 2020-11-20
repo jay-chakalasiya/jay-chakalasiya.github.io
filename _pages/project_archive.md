@@ -7,7 +7,7 @@ collection: projects
 
 {% include base_path %}
 
-{% if paginator %}
+<!--{% if paginator %}
   {% assign posts = paginator.projects %}
 {% else %}
   {% assign posts = site.projects %}
@@ -30,5 +30,5 @@ collection: projects
 <ul class="taxonomy__index">
     <li><a href="/projects-tags/"><strong>Posts by Tags</strong></a></li>
     <li><a href="/projects-categories/"><strong>Posts by Categories</strong></a></li>
-</ul>
+</ul>--->
 
