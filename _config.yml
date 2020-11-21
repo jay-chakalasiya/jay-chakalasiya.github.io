@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "_A curious soul with love for **science** and appetite for **fun**_"
   location         : #"WA, USA"
   email            :
@@ -273,6 +273,9 @@ collections:
   blog:
     output: true
     permalink: /:collection/:path
+  reflections:
+    output: true
+    permalink: /:collection/:path
 
 
 # Defaults
@@ -337,3 +340,29 @@ defaults:
 
       excerpt: "Please Add a Good Excerpt Here"
 
+  - scope:
+      path: ""
+      type: reflections
+    values:
+      layout: single
+      #classes:  wide
+      author_profile: true
+
+      read_time: false
+      comments: # true
+      share: true
+      related: false
+      show_date: true
+
+      search: true
+
+      toc: true
+      toc_sticky: true
+      toc_label: "Table of Contents"
+      toc_icon: "fas fa-scroll"
+
+      header:
+        overlay_filter: "0.9"
+        overlay_image: /assets/images/defaults/default-header.jpg
+
+      excerpt: "Please Add a Good Excerpt Here"
