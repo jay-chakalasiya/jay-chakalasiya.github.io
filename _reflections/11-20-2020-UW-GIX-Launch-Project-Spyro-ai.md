@@ -2,6 +2,7 @@
 title: "Spyro.ai"
 layout: "single"
 classes: "wide"
+excerpt: "Respiratory Monitoring System - Contribution Overview"
 ---
 ## Background
 **Spyro.ai** is a respiratory monitoring system built to increase asthma patient compliance; help doctors make more data-driven decisions and to provide a communication channel between patients and doctors. 
