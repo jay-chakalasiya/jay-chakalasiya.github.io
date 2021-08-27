@@ -26,7 +26,7 @@ This site is made using [Jekyll](https://jekyllrb.com/) blogging platform, using
     ```
 - Run the command below. Now, most probably, you can see your deployed version at [localhost:4000](http://127.0.0.1:4000)  or follow the instructions on the terminal.
     ```bash
-    bundle exec jekyll install
+    bundle exec jekyll serve
     ```
 
 ## Structure/Files:
